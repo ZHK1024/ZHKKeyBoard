@@ -23,7 +23,6 @@ static char *zhk_keyboardManager_UITextField = "zhk_keyboardManager_UITextField"
 
 - (void)setZhk_keyboardType:(ZHKKeyBoardType)zhk_keyboardType {
     objc_setAssociatedObject(self, zhk_keyboardTypeKey_UITextField, @(zhk_keyboardType), OBJC_ASSOCIATION_RETAIN);
-//    self.inputView = [ZHKKeyBoardManager keyboardWithType:zhk_keyboardType target:self];
     self.inputView = [self.zhk_keyboardManager keyboardWithType:zhk_keyboardType];
 }
 
