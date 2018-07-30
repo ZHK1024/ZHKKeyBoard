@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZHKKeyBoard_Example' do
+  pod 'ZHKKeyBoard', :path => '../'
+
+  target 'ZHKKeyBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
