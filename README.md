@@ -1,10 +1,9 @@
 # ZHKKeyBoard
 
-[![CI Status](https://img.shields.io/travis/ZHK1024/ZHKKeyBoard.svg?style=flat)](https://github.com/ZHK1024/ZHKKeyBoard)
+[![CI Status](https://img.shields.io/travis/ZHK1024/ZHKKeyBoard.svg?style=flat)](https://travis-ci.org/ZHK1024/ZHKKeyBoard)
 [![Version](https://img.shields.io/cocoapods/v/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 [![License](https://img.shields.io/cocoapods/l/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
-
 
 ## Example
 
