@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +22,53 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EBZ-9K-lzr">
+                                <rect key="frame" x="16" y="70" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EBZ-9K-lzr" secondAttribute="height" multiplier="343:40" id="Vlh-YG-yMg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eHN-6n-Jki">
+                                <rect key="frame" x="16" y="130" width="343" height="152"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eHN-6n-Jki" secondAttribute="height" multiplier="343:152" id="PnE-Sl-I4L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="EBZ-9K-lzr" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="50" id="BVw-Kd-kHH"/>
+                            <constraint firstItem="eHN-6n-Jki" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="CGt-wC-gqd"/>
+                            <constraint firstItem="EBZ-9K-lzr" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Lr9-Xj-vKu"/>
+                            <constraint firstItem="EBZ-9K-lzr" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="a4Y-pF-OTg"/>
+                            <constraint firstItem="eHN-6n-Jki" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="gei-Oe-Drq"/>
+                            <constraint firstItem="eHN-6n-Jki" firstAttribute="top" secondItem="EBZ-9K-lzr" secondAttribute="bottom" constant="20" id="m6d-Ce-y6v"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HQi-qm-Hj7" appends="YES" id="8Rm-eb-vrp"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="EBZ-9K-lzr" id="n6V-5E-Pbo"/>
+                        <outlet property="textView" destination="eHN-6n-Jki" id="QTZ-ul-aGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HQi-qm-Hj7">
+                    <connections>
+                        <action selector="tapAction:" destination="whP-gf-Uak" id="RjS-qh-6FG"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>

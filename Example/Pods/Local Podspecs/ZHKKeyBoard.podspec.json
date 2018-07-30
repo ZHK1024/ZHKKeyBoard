@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of ZHKKeyBoard.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/389914070@qq.com/ZHKKeyBoard",
+  "homepage": "https://github.com/ZHK1024/ZHKKeyBoard",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "389914070@qq.com": "tongjunfeng@weiqianjin.cn"
+    "389914070@qq.com": "zhk1024"
   },
   "source": {
-    "git": "https://github.com/389914070@qq.com/ZHKKeyBoard.git",
+    "git": "https://github.com/ZHK1024/ZHKKeyBoard.git",
     "tag": "0.1.0"
   },
   "platforms": {

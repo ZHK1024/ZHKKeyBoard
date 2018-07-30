@@ -1,6 +1,6 @@
 # ZHKKeyBoard
 
-[![CI Status](https://img.shields.io/travis/389914070@qq.com/ZHKKeyBoard.svg?style=flat)](https://travis-ci.org/389914070@qq.com/ZHKKeyBoard)
+[![CI Status](https://img.shields.io/travis/389914070@qq.com/ZHKKeyBoard.svg?style=flat)](https://travis-ci.org/ZHK1023/ZHKKeyBoard)
 [![Version](https://img.shields.io/cocoapods/v/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 [![License](https://img.shields.io/cocoapods/l/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
@@ -22,7 +22,7 @@ pod 'ZHKKeyBoard'
 
 ## Author
 
-389914070@qq.com, tongjunfeng@weiqianjin.cn
+ZHK1024
 
 ## License
 
