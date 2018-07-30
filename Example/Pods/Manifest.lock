@@ -1,0 +1,16 @@
+PODS:
+  - ZHKKeyBoard (0.1.0)
+
+DEPENDENCIES:
+  - ZHKKeyBoard (from `../`)
+
+EXTERNAL SOURCES:
+  ZHKKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHKKeyBoard: e0650db4472403484ee66d69860d6e35dbff2415
+
+PODFILE CHECKSUM: 5c3cb0cb3b821e35efcb2047c131460ce966dc26
+
+COCOAPODS: 1.2.1.beta.1

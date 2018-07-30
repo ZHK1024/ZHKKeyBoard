@@ -1,0 +1,6 @@
+framework module ZHKKeyBoard {
+  umbrella header "ZHKKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

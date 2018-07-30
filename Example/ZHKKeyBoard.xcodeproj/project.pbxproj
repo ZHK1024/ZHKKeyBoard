@@ -59,13 +59,13 @@
 		6BA79AC841046E6C68244D4A /* Pods-ZHKKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKKeyBoard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKKeyBoard_Tests/Pods-ZHKKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6BB8B51BD141294B1CBD72F9 /* Pods-ZHKKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKKeyBoard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKKeyBoard_Example/Pods-ZHKKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8001F3272C73127DCF642CFE /* ZHKKeyBoard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZHKKeyBoard.podspec; path = ../ZHKKeyBoard.podspec; sourceTree = "<group>"; };
+		8001F3272C73127DCF642CFE /* ZHKKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.perl; includeInIndex = 1; name = ZHKKeyBoard.podspec; path = ../ZHKKeyBoard.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C391803C5D135CA57D516F7 /* Pods_ZHKKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FB5EB0268809F294051D48 /* Pods-ZHKKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKKeyBoard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKKeyBoard_Example/Pods-ZHKKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5A5D8EA0875428CB7F9BD98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5A5D8EA0875428CB7F9BD98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D760AB25EB0172488217A4AE /* Pods_ZHKKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCFBA7D43BFD6EA191BD5B79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DCFBA7D43BFD6EA191BD5B79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E35F58B00F3D0F4CA1BAF4EE /* Pods-ZHKKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKKeyBoard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKKeyBoard_Tests/Pods-ZHKKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
