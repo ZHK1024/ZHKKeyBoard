@@ -36,6 +36,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 `ZHKKeyBoardTypeIDCard`
 ![ZHKKeyBoardTypeIDCard](https://github.com/ZHK1024/ZHKKeyBoard/blob/master/Images/IMG_0092.PNG?raw=true)
+<img src="https://github.com/ZHK1024/ZHKKeyBoard/blob/master/Images/IMG_0092.PNG?raw=true" width=256 />
 
 
 ## Author
