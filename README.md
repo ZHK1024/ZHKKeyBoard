@@ -5,11 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKKeyBoard.svg?style=flat)](https://cocoapods.org/pods/ZHKKeyBoard)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -19,6 +14,29 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ZHKKeyBoard'
 ```
+or
+```ruby
+pod 'ZHKKeyBoard', :git => 'https://github.com/ZHK1024/ZHKKeyBoard.git'
+```
+
+## Usage
+
+```objc
+// UITextField
+UITextField *textFile = [[UITextField alloc] init];
+textFile.zhk_keyboardType = ZHKKeyBoardTypeIDCard;
+
+// UITextView
+UITextView *textView = [[UITextView alloc] init];
+textFile.zhk_keyboardType = ZHKKeyBoardTypeIDCard;
+```
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+`ZHKKeyBoardTypeIDCard`
+[](https://github.com/ZHK1024/ZHKKeyBoard/tree/master/Images/IMG_0092.PNG)
+
 
 ## Author
 
