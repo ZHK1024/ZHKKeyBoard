@@ -35,7 +35,7 @@ textFile.zhk_keyboardType = ZHKKeyBoardTypeIDCard;
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 `ZHKKeyBoardTypeIDCard`
-![ZHKKeyBoardTypeIDCard](https://github.com/ZHK1024/ZHKKeyBoard/tree/master/Images/IMG_0092.PNG)
+![ZHKKeyBoardTypeIDCard](https://github.com/ZHK1024/ZHKKeyBoard/blob/master/Images/IMG_0092.PNG?raw=true)
 
 
 ## Author
