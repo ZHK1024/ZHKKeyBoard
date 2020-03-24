@@ -15,4 +15,6 @@
 
 - (void)deleteBackward;
 
+- (void)keyBoardHidded;
+
 @end

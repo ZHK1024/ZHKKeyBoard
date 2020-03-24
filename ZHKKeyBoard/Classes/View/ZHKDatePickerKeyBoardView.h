@@ -12,7 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZHKDatePickerKeyBoardView : UIView <ZHKKeyBoard>
 
-@property(nonatomic, strong) NSDate *date;
+@property (nonatomic, strong) NSDateFormatter *formatter;
+@property (nonatomic, strong) NSDate *date;
 
 @end
 

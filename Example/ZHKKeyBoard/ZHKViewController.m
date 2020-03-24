@@ -23,7 +23,7 @@
     [super viewDidLoad];
     _textView.zhk_keyboardType = ZHKKeyboardTypePhonePad;
     _textField.zhk_keyboardType = ZHKKeyBoardTypeDate;
-    
+    _textField.zhk_dateFormat = @"yyyy-MM-dd";
     _textField.delegate = self;
     _textView.delegate = self;
 }

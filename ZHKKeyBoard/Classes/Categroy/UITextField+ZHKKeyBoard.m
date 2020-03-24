@@ -14,6 +14,8 @@
 const NSString *zhk_keyboardTypeKey_UITextField = @"zhk_keyboardTypeKey_UITextField";
 const NSString *zhk_keyboardManager_UITextField = @"zhk_keyboardManager_UITextField";
 const NSString *zhk_date_UITextField            = @"zhk_date_UITextField";
+const NSString *zhk_dateFormat_UITextField      = @"zhk_dateFormat_UITextField";
+//
 static char *zhk_attribute_key                  = "4ebba881c3adebd02a0e0015a0447cc7";
 
 @interface UITextField ()
@@ -51,7 +53,7 @@ static char *zhk_attribute_key                  = "4ebba881c3adebd02a0e0015a0447
 #pragma mark - Date
 
 - (NSDate *)zhk_date {
-    ZHKDatePickerKeyBoardView *keyboard = self.inputView;
+    ZHKDatePickerKeyBoardView *keyboard = (ZHKDatePickerKeyBoardView *)self.inputView;
     if (keyboard == nil || ![keyboard isKindOfClass:[ZHKDatePickerKeyBoardView class]]) {
         return self.zhk_attributes[zhk_date_UITextField];
     }
@@ -60,11 +62,26 @@ static char *zhk_attribute_key                  = "4ebba881c3adebd02a0e0015a0447
 
 - (void)setZhk_date:(NSDate *)zhk_date {
     self.zhk_attributes[zhk_date_UITextField] = zhk_date;
-    ZHKDatePickerKeyBoardView *keyboard = self.inputView;
+    ZHKDatePickerKeyBoardView *keyboard = (ZHKDatePickerKeyBoardView *)self.inputView;
     if (keyboard == nil || ![keyboard isKindOfClass:[ZHKDatePickerKeyBoardView class]]) {
         return;
     }
     keyboard.date = zhk_date;
+}
+
+- (NSString *)zhk_dateFormat {
+    return self.zhk_attributes[zhk_dateFormat_UITextField];
+}
+
+- (void)setZhk_dateFormat:(NSString *)zhk_dateFormat {
+    self.zhk_attributes[zhk_dateFormat_UITextField] = zhk_dateFormat;
+    ZHKDatePickerKeyBoardView *keyboard = (ZHKDatePickerKeyBoardView *)self.inputView;
+    if (keyboard == nil || ![keyboard isKindOfClass:[ZHKDatePickerKeyBoardView class]]) {
+        return;
+    }
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = zhk_dateFormat;
+    keyboard.formatter = formatter;
 }
 
 #pragma mark - Attributes

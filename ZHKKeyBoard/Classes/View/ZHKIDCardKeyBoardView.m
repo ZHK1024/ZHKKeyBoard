@@ -37,13 +37,6 @@
 - (void)setupUI {
     self.frame = self.defaultFrame;
     [self addSubview:self.collectionView];
-//    if (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) == 20.0f) {
-//        self.frame = self.defaultFrame;
-//    } else {
-//        CGRect frame = self.defaultFrame;
-//        frame.size.height += 21.0f;
-//        self.frame = frame;
-//    }
     self.frame = self.defaultFrame;
 }
 

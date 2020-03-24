@@ -53,6 +53,10 @@
     }
 }
 
+- (void)keyBoardHidded {
+    [((UIView *)self.target) resignFirstResponder];
+}
+
 #pragma mark - InputWord
 
 - (BOOL)textField:(UITextField *)textField inputWord:(NSString *)word {
