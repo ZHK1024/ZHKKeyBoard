@@ -29,7 +29,8 @@ typedef NS_ENUM(NSInteger, ZHKKeyBoardType) {
     ZHKKeyboardTypeAlphabet = UIKeyboardTypeASCIICapable, // Deprecated
     
     // Custom
-    ZHKKeyBoardTypeIDCard,
+    ZHKKeyBoardTypeIDCard,      // ID Card
+    ZHKKeyBoardTypeDate,        // Date
 };
 
 #endif /* ZHKKeyBoardDefine_h */

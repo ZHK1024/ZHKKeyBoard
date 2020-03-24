@@ -6,10 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZHKKeyBoard.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZHKDatePickerKeyBoardView : UIView
+@interface ZHKDatePickerKeyBoardView : UIView <ZHKKeyBoard>
+
+@property(nonatomic, strong) NSDate *date;
 
 @end
 

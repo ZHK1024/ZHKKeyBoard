@@ -1,8 +1,8 @@
 {
   "name": "ZHKKeyBoard",
   "version": "0.1.0",
-  "summary": "A short description of ZHKKeyBoard.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A Custom KeyBoard.",
+  "description": "A Custom KeyBoard For UITextField And UITextView.",
   "homepage": "https://github.com/ZHK1024/ZHKKeyBoard",
   "license": {
     "type": "MIT",

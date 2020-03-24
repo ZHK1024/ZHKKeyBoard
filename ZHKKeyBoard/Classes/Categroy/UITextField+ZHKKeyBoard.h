@@ -11,5 +11,6 @@
 @interface UITextField (ZHKKeyBoard)
 
 @property (nonatomic, assign) ZHKKeyBoardType zhk_keyboardType;
+@property (nonatomic, strong) NSDate *zhk_date;
 
 @end

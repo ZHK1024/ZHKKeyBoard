@@ -17,6 +17,7 @@
 #import "ZHKKeyBoardDefine.h"
 #import "ZHKKeyBoardDelegate.h"
 #import "ZHKKeyBoardManager.h"
+#import "ZHKDatePickerKeyBoardView.h"
 #import "ZHKIDCardKeyBoardView.h"
 #import "ZHKKIDCardKeyBoardItem.h"
 

@@ -9,6 +9,7 @@
 #import "ZHKIDCardKeyBoardView.h"
 #import "ZHKIputTarget.h"
 #import "ZHKKeyBoardDelegate.h"
+#import "ZHKDatePickerKeyBoardView.h"
 
 @interface ZHKKeyBoardManager () <ZHKKeyBoardDelegate>
 
@@ -28,6 +29,8 @@
     switch (type) {
         case ZHKKeyBoardTypeIDCard:
             return [ZHKIDCardKeyBoardView keyBoardWithDelegate:self];
+        case ZHKKeyBoardTypeDate:
+            return [ZHKDatePickerKeyBoardView keyBoardWithDelegate:self];
         default:
             _target.keyboardType = (UIKeyboardType)type;
             return nil;

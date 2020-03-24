@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _textView.zhk_keyboardType = ZHKKeyboardTypePhonePad;
-    _textField.zhk_keyboardType = ZHKKeyBoardTypeIDCard;
+    _textField.zhk_keyboardType = ZHKKeyBoardTypeDate;
     
     _textField.delegate = self;
     _textView.delegate = self;
