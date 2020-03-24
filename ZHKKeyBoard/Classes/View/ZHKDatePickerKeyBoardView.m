@@ -47,8 +47,8 @@
 #pragma mark - Action
 
 - (void)selectAction {
-    if ([_delegate respondsToSelector:@selector(keyboard:inputWord:)]) {
-        [_delegate keyboard:self inputWord:[self.formatter stringFromDate:self.datePicker.date] ?: @""];
+    if ([_delegate respondsToSelector:@selector(keyboard:inputWord:replace:)]) {
+        [_delegate keyboard:self inputWord:[self.formatter stringFromDate:self.datePicker.date] ?: @"" replace:YES];
     }
     [self cancelAction];
 }

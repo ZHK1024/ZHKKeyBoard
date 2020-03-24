@@ -57,8 +57,8 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row < 11) {
-        if ([_delegate respondsToSelector:@selector(keyboard:inputWord:)]) {
-            [_delegate keyboard:self inputWord:_titles[indexPath.row]];
+        if ([_delegate respondsToSelector:@selector(keyboard:inputWord:replace:)]) {
+            [_delegate keyboard:self inputWord:_titles[indexPath.row] replace:NO];
         }
     } else {
         if ([_delegate respondsToSelector:@selector(deleteBackward)]) {

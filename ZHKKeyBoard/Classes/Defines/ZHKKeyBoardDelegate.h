@@ -11,7 +11,7 @@
 
 @protocol ZHKKeyBoardDelegate <NSObject>
 
-- (void)keyboard:(id <ZHKKeyBoard>)keyBoard inputWord:(NSString *)word;
+- (void)keyboard:(id <ZHKKeyBoard>)keyBoard inputWord:(NSString *)word replace:(BOOL)replace;
 
 - (void)deleteBackward;
 
