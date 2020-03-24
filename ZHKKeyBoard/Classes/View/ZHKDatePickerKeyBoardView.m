@@ -67,6 +67,14 @@
 
 #pragma mark - Getter
 
+- (NSDateFormatter *)formatter {
+    if (_formatter == nil) {
+        self.formatter = [[NSDateFormatter alloc] init];
+        _formatter.dateFormat = @"yyyy-MM-dd";
+    }
+    return _formatter;
+}
+
 - (NSDate *)date {
     return _datePicker.date;
 }
