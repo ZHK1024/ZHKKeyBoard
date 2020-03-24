@@ -29,8 +29,11 @@
     [self.contentView addSubview:self.titleLabel];
     
     _titleLabel.frame = self.contentView.bounds;
-    
+    self.layer.shadowColor = [UIColor grayColor].CGColor;
+    self.layer.shadowOpacity = 0.5f;
+    self.layer.shadowOffset = CGSizeMake(0.0f, 1.0f);
     self.layer.cornerRadius = 4.0f;
+    
     self.clipsToBounds = YES;
     _highlightLayer.hidden = YES;
 }
@@ -47,6 +50,7 @@
 - (UILabel *)titleLabel {
     if (_titleLabel == nil) {
         self.titleLabel = [UILabel new];
+        _titleLabel.font = [UIFont systemFontOfSize:25.0f];
         _titleLabel.textAlignment = NSTextAlignmentCenter;
     }
     return _titleLabel;

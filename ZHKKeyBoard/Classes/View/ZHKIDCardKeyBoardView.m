@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSArray *titles;
-//@property (nonatomic, weak) id <UITextInput> target;
+@property (nonatomic, assign) CGRect   defaultFrame;    // 默认 frame
 
 @end
 
@@ -35,12 +35,16 @@
 #pragma mark - UI
 
 - (void)setupUI {
-    if (CGRectEqualToRect([UIScreen mainScreen].bounds, CGRectMake(0, 0, 375.0, 812.0)) ) {
-        self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 280);
-    } else {
-        self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250);
-    }
+    self.frame = self.defaultFrame;
     [self addSubview:self.collectionView];
+//    if (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) == 20.0f) {
+//        self.frame = self.defaultFrame;
+//    } else {
+//        CGRect frame = self.defaultFrame;
+//        frame.size.height += 21.0f;
+//        self.frame = frame;
+//    }
+    self.frame = self.defaultFrame;
 }
 
 #pragma mark -
@@ -87,35 +91,51 @@
 - (UICollectionView *)collectionView {
     if (_collectionView == nil) {
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        layout.itemSize = CGSizeMake(110, 45);
-        layout.sectionInset = UIEdgeInsetsMake(20, 10, 20, 10);
-        self.collectionView = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:layout];
+        CGFloat width = CGRectGetWidth(UIScreen.mainScreen.bounds);
+        CGFloat scaleX = width / 414.0f;
+        CGFloat gap = 8.0f;
+        CGRect frame = CGRectMake(0, 0, width, 255.0f * scaleX);
+        layout.itemSize = CGSizeMake(ceil((width - 4 * gap) / 3.0f), 48.0f * scaleX);
+        layout.sectionInset = UIEdgeInsetsMake(gap, gap, gap, gap);
+        layout.minimumLineSpacing = gap;
+        layout.minimumInteritemSpacing = 0.0f;
+        self.collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         _collectionView.allowsSelection = YES;
         [_collectionView registerClass:[ZHKKIDCardKeyBoardItem class] forCellWithReuseIdentifier:@"cell"];
         _collectionView.backgroundColor = [UIColor colorWithRed:209 / 255.0 green:212 / 255.0 blue:219 / 255.0 alpha:1];
+        _collectionView.delaysContentTouches = NO;
     }
     return _collectionView;
 }
 
 - (NSArray *)titles {
     if (_titles == nil) {
-        self.titles = @[@"1",
-                        @"2",
-                        @"3",
+        self.titles = @[@"7",
+                        @"8",
+                        @"9",
                         @"4",
                         @"5",
                         @"6",
-                        @"7",
-                        @"8",
-                        @"9",
+                        @"1",
+                        @"2",
+                        @"3",
                         @"X",
                         @"0",
                         @"←"
                         ];
     }
     return _titles;
+}
+
+- (CGRect)defaultFrame {
+    CGFloat scaleX = CGRectGetWidth(UIScreen.mainScreen.bounds) / 414.0f;
+    if (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) == 20.0f) {
+        return CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 235.0f * scaleX);
+    } else {
+        return CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 280.0f * scaleX + 21.0f);
+    }
 }
 
 @end
