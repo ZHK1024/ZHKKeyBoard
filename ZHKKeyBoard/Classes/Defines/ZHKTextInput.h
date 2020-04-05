@@ -1,5 +1,5 @@
 //
-//  UITextView+ZHKKeyBoard.h
+//  ZHKIputTarget.h
 //  Pods
 //
 //  Created by ZHK on 2018/7/30.
@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZHKKeyBoardDefine.h"
-#import "ZHKTextInput.h"
+#import "ZHKBlockObject.h"
 
-@interface UITextView (ZHKKeyBoard) <ZHKTextInput>
+@protocol ZHKTextInput <UITextInput>
 
-@property (nonatomic, assign) ZHKKeyBoardType zhk_keyboardType;
-
+@property (nonatomic, strong) UIView *inputView;
 // Block 容器对象
 @property (nonatomic, strong, readonly) ZHKBlockObject *keyboardBlockObject;
 

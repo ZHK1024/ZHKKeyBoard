@@ -7,19 +7,20 @@
 
 #import "ZHKKeyBoardManager.h"
 #import "ZHKIDCardKeyBoardView.h"
-#import "ZHKIputTarget.h"
+#import "ZHKTextInput.h"
 #import "ZHKKeyBoardDelegate.h"
 #import "ZHKDatePickerKeyBoardView.h"
+#import "ZHKLocationKeyBoardView.h"
 
 @interface ZHKKeyBoardManager () <ZHKKeyBoardDelegate>
 
-@property (nonatomic, weak) id <UITextInput> target;
+@property (nonatomic, weak) id <ZHKTextInput> target;
 
 @end
 
 @implementation ZHKKeyBoardManager
 
-+ (instancetype)managerWithTarget:(id <UITextInput>)target {
++ (instancetype)managerWithTarget:(id <ZHKTextInput>)target {
     ZHKKeyBoardManager *manager = [[ZHKKeyBoardManager alloc] init];
     manager.target = target;
     return manager;
@@ -31,6 +32,8 @@
             return [ZHKIDCardKeyBoardView keyBoardWithDelegate:self];
         case ZHKKeyBoardTypeDate:
             return [ZHKDatePickerKeyBoardView keyBoardWithDelegate:self];
+        case ZHKKeyBoardTypeLocation:
+            return [ZHKLocationKeyBoardView keyBoardWithDelegate:self];
         default:
             _target.keyboardType = (UIKeyboardType)type;
             return nil;
@@ -47,6 +50,12 @@
         } else {
             [_target insertText:word];
         }
+    }
+}
+
+- (void)keyboard:(id<ZHKKeyBoardView>)keyBoard inputObject:(NSObject *)object {
+    if (_target.keyboardBlockObject.block) {
+        _target.keyboardBlockObject.block(object);
     }
 }
 

@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "389914070@qq.com": "zhk1024"
+    "ZHK1024@foxmail.com": "zhk1024"
   },
   "source": {
     "git": "https://github.com/ZHK1024/ZHKKeyBoard.git",
@@ -56,6 +56,10 @@
           "source_files": "ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/*.{h,m}"
         }
       ]
+    },
+    {
+      "name": "ZHKBlockObject",
+      "source_files": "ZHKKeyBoard/Classes/ZHKBlockObject/*.{h,m}"
     },
     {
       "name": "Manager",

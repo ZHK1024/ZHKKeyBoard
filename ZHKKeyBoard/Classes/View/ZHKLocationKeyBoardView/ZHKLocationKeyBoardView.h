@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZHKKeyBoardView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZHKLocationKeyBoardView : UIView
+@interface ZHKLocationKeyBoardView : UIView <ZHKKeyBoardView>
 
 @end
 

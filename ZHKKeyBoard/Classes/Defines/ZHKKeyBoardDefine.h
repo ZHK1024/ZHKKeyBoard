@@ -28,5 +28,6 @@ typedef NS_ENUM(NSInteger, ZHKKeyBoardType) {
     // Custom
     ZHKKeyBoardTypeIDCard,      // ID Card
     ZHKKeyBoardTypeDate,        // Date
+    ZHKKeyBoardTypeLocation,    // Location (China)
 };
 

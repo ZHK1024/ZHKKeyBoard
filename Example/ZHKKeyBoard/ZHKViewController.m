@@ -21,10 +21,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _textView.zhk_keyboardType = ZHKKeyboardTypePhonePad;
-    _textField.zhk_keyboardType = ZHKKeyBoardTypeDate;
-    _textField.zhk_dateFormat = @"yyyy-MM-dd";
+    _textField.zhk_keyboardType = ZHKKeyBoardTypeLocation;
+//    _textField.zhk_dateFormat = @"yyyy-MM-dd";
     _textField.delegate = self;
     _textView.delegate = self;
+    
+    [_textField setKeyboardBlock:^(id object) {
+        NSLog(@"obj: %@", object);
+    }];
 }
 
 - (IBAction)tapAction:(UITapGestureRecognizer *)sender {

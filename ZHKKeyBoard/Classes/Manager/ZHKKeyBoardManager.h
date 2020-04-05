@@ -7,10 +7,11 @@
 
 #import <Foundation/Foundation.h>
 #import "ZHKKeyBoardDefine.h"
+#import "ZHKTextInput.h"
 
 @interface ZHKKeyBoardManager : NSObject
 
-+ (instancetype)managerWithTarget:(id <UITextInput>)target;
++ (instancetype)managerWithTarget:(id <ZHKTextInput>)target;
 
 - (UIView *)keyboardWithType:(ZHKKeyBoardType)type;
 

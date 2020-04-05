@@ -4,6 +4,7 @@ PODS:
     - ZHKKeyBoard/Defines (= 0.1.0)
     - ZHKKeyBoard/Manager (= 0.1.0)
     - ZHKKeyBoard/Views (= 0.1.0)
+    - ZHKKeyBoard/ZHKBlockObject (= 0.1.0)
   - ZHKKeyBoard/Categroies (0.1.0):
     - ZHKKeyBoard/Categroies/UITextField (= 0.1.0)
     - ZHKKeyBoard/Categroies/UITextView (= 0.1.0)
@@ -18,6 +19,7 @@ PODS:
   - ZHKKeyBoard/Views/ZHKDatePickerKeyBoardView (0.1.0)
   - ZHKKeyBoard/Views/ZHKIDCardKeyBoardView (0.1.0)
   - ZHKKeyBoard/Views/ZHKLocationKeyBoardView (0.1.0)
+  - ZHKKeyBoard/ZHKBlockObject (0.1.0)
 
 DEPENDENCIES:
   - ZHKKeyBoard (from `../`)
@@ -27,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHKKeyBoard: 9678967f6618a25b57136d721c01753deea8a306
+  ZHKKeyBoard: dae6e880da8f12a94270f40d6c929b5ab68a8f18
 
 PODFILE CHECKSUM: 5c3cb0cb3b821e35efcb2047c131460ce966dc26
 

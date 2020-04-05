@@ -11,12 +11,14 @@
 #import "ZHKKeyBoardManager.h"
 #import "ZHKDatePickerKeyBoardView.h"
 
-const NSString *zhk_keyboardTypeKey_UITextField = @"zhk_keyboardTypeKey_UITextField";
-const NSString *zhk_keyboardManager_UITextField = @"zhk_keyboardManager_UITextField";
-const NSString *zhk_date_UITextField            = @"zhk_date_UITextField";
-const NSString *zhk_dateFormat_UITextField      = @"zhk_dateFormat_UITextField";
+NSString *const zhk_keyboardTypeKey_UITextField = @"zhk_keyboardTypeKey_UITextField";
+NSString *const zhk_keyboardManager_UITextField = @"zhk_keyboardManager_UITextField";
+NSString *const zhk_date_UITextField            = @"zhk_date_UITextField";
+NSString *const zhk_dateFormat_UITextField      = @"zhk_dateFormat_UITextField";
+NSString *const zhk_BlockObject_UITextField     = @"zhk_BlockObject_UITextField";
 //
-static char *zhk_attribute_key                  = "4ebba881c3adebd02a0e0015a0447cc7";
+static char *zhk_attribute_key_UITextField     = "4ebba881c3adebd02a0e0015a0447cc7";
+
 
 @interface UITextField ()
 
@@ -84,13 +86,23 @@ static char *zhk_attribute_key                  = "4ebba881c3adebd02a0e0015a0447
     keyboard.formatter = formatter;
 }
 
+#pragma mark - Block Object
+
+- (void)setKeyboardBlock:(void(^)(id object))block {
+    self.zhk_attributes[zhk_BlockObject_UITextField] = [ZHKBlockObject object:block];
+}
+
+- (ZHKBlockObject *)keyboardBlockObject {
+    return self.zhk_attributes[zhk_BlockObject_UITextField];
+}
+
 #pragma mark - Attributes
 
 - (NSMutableDictionary *)zhk_attributes {
-    NSMutableDictionary *obj = objc_getAssociatedObject(self, zhk_attribute_key);
+    NSMutableDictionary *obj = objc_getAssociatedObject(self, zhk_attribute_key_UITextField);
     if (obj == nil) {
         obj = [NSMutableDictionary new];
-        objc_setAssociatedObject(self, zhk_attribute_key, obj, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(self, zhk_attribute_key_UITextField, obj, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
     return obj;
 }
