@@ -18,5 +18,52 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZHKKeyBoard/Classes/**/*"
+  "source_files": "ZHKKeyBoard/Classes/*.{h,m}",
+  "resource_bundles": {
+    "ZHKKeyBoard": [
+      "ZHKKeyBoard/Assets/**"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Categroies",
+      "source_files": "ZHKKeyBoard/Classes/Categroies/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "UITextField",
+          "source_files": "ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/*.{h,m}"
+        },
+        {
+          "name": "UITextView",
+          "source_files": "ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "Views",
+      "source_files": "ZHKKeyBoard/Classes/View/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "ZHKDatePickerKeyBoardView",
+          "source_files": "ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/*.{h,m}"
+        },
+        {
+          "name": "ZHKIDCardKeyBoardView",
+          "source_files": "ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/*.{h,m}"
+        },
+        {
+          "name": "ZHKLocationKeyBoardView",
+          "source_files": "ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "Manager",
+      "source_files": "ZHKKeyBoard/Classes/Manager/*.{h,m}"
+    },
+    {
+      "name": "Defines",
+      "source_files": "ZHKKeyBoard/Classes/Defines/*.{h,m}"
+    }
+  ]
 }

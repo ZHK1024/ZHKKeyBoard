@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZHKKeyBoard.h"
+#import "ZHKKeyBoardView.h"
 
 @protocol ZHKKeyBoardDelegate <NSObject>
 
-- (void)keyboard:(id <ZHKKeyBoard>)keyBoard inputWord:(NSString *)word replace:(BOOL)replace;
+- (void)keyboard:(id <ZHKKeyBoardView>)keyBoard inputWord:(NSString *)word replace:(BOOL)replace;
 
 - (void)deleteBackward;
 

@@ -39,7 +39,7 @@
 
 #pragma mark - ZHKKeyBoard delegate
 
-- (void)keyboard:(id<ZHKKeyBoard>)keyBoard inputWord:(NSString *)word replace:(BOOL)replace {
+- (void)keyboard:(id<ZHKKeyBoardView>)keyBoard inputWord:(NSString *)word replace:(BOOL)replace {
     if (([_target isKindOfClass:[UITextView class]] && [self textView:(UITextView *)_target inputWord:word]) ||
         ([_target isKindOfClass:[UITextField class]] && [self textField:(UITextField *)_target inputWord:word])) {
         if (replace) {

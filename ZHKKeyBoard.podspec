@@ -30,11 +30,49 @@ A Custom KeyBoard For UITextField And UITextView.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZHKKeyBoard/Classes/**/*'
+  s.source_files = 'ZHKKeyBoard/Classes/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'ZHKKeyBoard' => ['ZHKKeyBoard/Assets/*.png']
-  # }
+  s.subspec 'Categroies' do |ss|
+    ss.source_files = 'ZHKKeyBoard/Classes/Categroies/*.{h,m}'
+    
+    ss.subspec 'UITextField' do |sss|
+        sss.source_files = 'ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/*.{h,m}'
+    end
+    
+    ss.subspec 'UITextView' do |sss|
+        sss.source_files = 'ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/*.{h,m}'
+    end
+  end
+  
+  
+  s.subspec 'Views' do |ss|
+    ss.source_files = 'ZHKKeyBoard/Classes/View/*.{h,m}'
+    
+    ss.subspec 'ZHKDatePickerKeyBoardView' do |sss|
+      sss.source_files = 'ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/*.{h,m}'
+    end
+    
+    ss.subspec 'ZHKIDCardKeyBoardView' do |sss|
+      sss.source_files = 'ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/*.{h,m}'
+    end
+    
+    ss.subspec 'ZHKLocationKeyBoardView' do |sss|
+      sss.source_files = 'ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/*.{h,m}'
+    end
+  end
+  
+  
+  s.subspec 'Manager' do |ss|
+      ss.source_files = 'ZHKKeyBoard/Classes/Manager/*.{h,m}'
+  end
+  
+  s.subspec 'Defines' do |ss|
+      ss.source_files = 'ZHKKeyBoard/Classes/Defines/*.{h,m}'
+  end
+  
+  s.resource_bundles = {
+    'ZHKKeyBoard' => ['ZHKKeyBoard/Assets/**']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

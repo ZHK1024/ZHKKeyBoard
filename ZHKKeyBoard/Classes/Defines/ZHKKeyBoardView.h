@@ -9,7 +9,7 @@
 #import "ZHKKeyBoardDefine.h"
 
 @protocol ZHKKeyBoardDelegate;
-@protocol ZHKKeyBoard <NSObject>
+@protocol ZHKKeyBoardView <NSObject>
 
 + (instancetype)keyBoardWithDelegate:(id <ZHKKeyBoardDelegate>)delegate;
 

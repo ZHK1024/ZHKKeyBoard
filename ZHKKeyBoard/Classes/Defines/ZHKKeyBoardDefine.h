@@ -5,9 +5,6 @@
 //  Created by ZHK on 2018/7/30.
 //
 
-#ifndef ZHKKeyBoardDefine_h
-#define ZHKKeyBoardDefine_h
-
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, ZHKKeyBoardType) {
@@ -33,4 +30,3 @@ typedef NS_ENUM(NSInteger, ZHKKeyBoardType) {
     ZHKKeyBoardTypeDate,        // Date
 };
 
-#endif /* ZHKKeyBoardDefine_h */

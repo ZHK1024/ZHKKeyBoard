@@ -7,8 +7,7 @@
 //
 
 #import "ZHKViewController.h"
-#import "UITextField+ZHKKeyBoard.h"
-#import "UITextView+ZHKKeyBoard.h"
+#import <ZHKKeyBoard.h>
 
 @interface ZHKViewController () <UITextFieldDelegate, UITextViewDelegate>
 

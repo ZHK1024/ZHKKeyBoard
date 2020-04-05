@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZHKKeyBoard.h"
+#import "ZHKKeyBoardView.h"
 
-@interface ZHKIDCardKeyBoardView : UIView <ZHKKeyBoard>
+@interface ZHKIDCardKeyBoardView : UIView <ZHKKeyBoardView>
 
 @property (nonatomic, weak) id <ZHKKeyBoardDelegate> delegate;
 
