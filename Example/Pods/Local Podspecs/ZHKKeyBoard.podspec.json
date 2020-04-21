@@ -1,6 +1,6 @@
 {
   "name": "ZHKKeyBoard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A Custom KeyBoard.",
   "description": "A Custom KeyBoard For UITextField And UITextView.",
   "homepage": "https://github.com/ZHK1024/ZHKKeyBoard",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZHK1024/ZHKKeyBoard.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -54,6 +54,10 @@
         {
           "name": "ZHKLocationKeyBoardView",
           "source_files": "ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/*.{h,m}"
+        },
+        {
+          "name": "ZHKSelectionKeyboardView",
+          "source_files": "ZHKKeyBoard/Classes/View/ZHKSelectionKeyboardView/*.{h,m}"
         }
       ]
     },

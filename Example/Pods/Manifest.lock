@@ -1,25 +1,27 @@
 PODS:
-  - ZHKKeyBoard (0.1.0):
-    - ZHKKeyBoard/Categroies (= 0.1.0)
-    - ZHKKeyBoard/Defines (= 0.1.0)
-    - ZHKKeyBoard/Manager (= 0.1.0)
-    - ZHKKeyBoard/Views (= 0.1.0)
-    - ZHKKeyBoard/ZHKBlockObject (= 0.1.0)
-  - ZHKKeyBoard/Categroies (0.1.0):
-    - ZHKKeyBoard/Categroies/UITextField (= 0.1.0)
-    - ZHKKeyBoard/Categroies/UITextView (= 0.1.0)
-  - ZHKKeyBoard/Categroies/UITextField (0.1.0)
-  - ZHKKeyBoard/Categroies/UITextView (0.1.0)
-  - ZHKKeyBoard/Defines (0.1.0)
-  - ZHKKeyBoard/Manager (0.1.0)
-  - ZHKKeyBoard/Views (0.1.0):
-    - ZHKKeyBoard/Views/ZHKDatePickerKeyBoardView (= 0.1.0)
-    - ZHKKeyBoard/Views/ZHKIDCardKeyBoardView (= 0.1.0)
-    - ZHKKeyBoard/Views/ZHKLocationKeyBoardView (= 0.1.0)
-  - ZHKKeyBoard/Views/ZHKDatePickerKeyBoardView (0.1.0)
-  - ZHKKeyBoard/Views/ZHKIDCardKeyBoardView (0.1.0)
-  - ZHKKeyBoard/Views/ZHKLocationKeyBoardView (0.1.0)
-  - ZHKKeyBoard/ZHKBlockObject (0.1.0)
+  - ZHKKeyBoard (0.1.1):
+    - ZHKKeyBoard/Categroies (= 0.1.1)
+    - ZHKKeyBoard/Defines (= 0.1.1)
+    - ZHKKeyBoard/Manager (= 0.1.1)
+    - ZHKKeyBoard/Views (= 0.1.1)
+    - ZHKKeyBoard/ZHKBlockObject (= 0.1.1)
+  - ZHKKeyBoard/Categroies (0.1.1):
+    - ZHKKeyBoard/Categroies/UITextField (= 0.1.1)
+    - ZHKKeyBoard/Categroies/UITextView (= 0.1.1)
+  - ZHKKeyBoard/Categroies/UITextField (0.1.1)
+  - ZHKKeyBoard/Categroies/UITextView (0.1.1)
+  - ZHKKeyBoard/Defines (0.1.1)
+  - ZHKKeyBoard/Manager (0.1.1)
+  - ZHKKeyBoard/Views (0.1.1):
+    - ZHKKeyBoard/Views/ZHKDatePickerKeyBoardView (= 0.1.1)
+    - ZHKKeyBoard/Views/ZHKIDCardKeyBoardView (= 0.1.1)
+    - ZHKKeyBoard/Views/ZHKLocationKeyBoardView (= 0.1.1)
+    - ZHKKeyBoard/Views/ZHKSelectionKeyboardView (= 0.1.1)
+  - ZHKKeyBoard/Views/ZHKDatePickerKeyBoardView (0.1.1)
+  - ZHKKeyBoard/Views/ZHKIDCardKeyBoardView (0.1.1)
+  - ZHKKeyBoard/Views/ZHKLocationKeyBoardView (0.1.1)
+  - ZHKKeyBoard/Views/ZHKSelectionKeyboardView (0.1.1)
+  - ZHKKeyBoard/ZHKBlockObject (0.1.1)
 
 DEPENDENCIES:
   - ZHKKeyBoard (from `../`)
@@ -29,7 +31,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHKKeyBoard: dae6e880da8f12a94270f40d6c929b5ab68a8f18
+  ZHKKeyBoard: 50225b439af3eee5cc7f455437c169ecd9a5f02b
 
 PODFILE CHECKSUM: 5c3cb0cb3b821e35efcb2047c131460ce966dc26
 

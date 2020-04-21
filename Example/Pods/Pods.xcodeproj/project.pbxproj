@@ -7,54 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11D6463C9701DEF3417696B99252600D /* UITextField+ZHKKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E224E2B754383220DB80053C03014DD9 /* UITextField+ZHKKeyBoard.m */; };
-		140940FF70E44D53D26BA5AD4BE1390B /* ZHKDatePickerKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1163F8ACF2975009C7ED430343B7A4 /* ZHKDatePickerKeyBoardView.m */; };
-		171EA751969E9A34F36ECDA354B40A8B /* ZHKKIDCardKeyBoardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F456494FBED2E246D73B4FDD97B6D27 /* ZHKKIDCardKeyBoardItem.m */; };
-		1C018F46B30C25DC9FF88C69CC7905E4 /* ZHKKeyBoardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B6D7078C46B6DDEE94F4D94845D4D6 /* ZHKKeyBoardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9C38EF4AD61963208EA08F9C6831AE /* ZHKKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EABC1927E07A0AF3020CE912EE68C40 /* ZHKKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A188ACD7AB3303B892DFD73931F4BD /* ZHKSelectionModels.h in Headers */ = {isa = PBXBuildFile; fileRef = E4377A7CC5001C99CD5EFA2C47DAA913 /* ZHKSelectionModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B49573D876A1BCDFE476EF4DAACE9A4 /* ZHKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD02289115F8B36887D313C0817D0EF /* ZHKTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F9436BB73203282633FEC8B0FDDE3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		23217786C101EB89FFF19A3919E1BBF1 /* ZHKKIDCardKeyBoardItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 052D8B3BA03508619D5CC9CD483177F2 /* ZHKKIDCardKeyBoardItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DD74CCD7EE44C4E17B8089E7F663A50 /* ZHKDatePickerKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DFA428A127A345942138CC4463F37D /* ZHKDatePickerKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3935753878091CC95B216D322DAC8410 /* ZHKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 83660E2EA21D3A3C77B63D1D056953A7 /* ZHKTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44089318AA673EA098682037739E8229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		47FF2E695871F421D5F80E0E9EE4F940 /* ZHKKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2B0A185A4202186F7C4FC1A0689A76B /* ZHKKeyBoard.bundle */; };
-		55324D68D20AC50998F9B825BC4CBE05 /* ZHKIDCardKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 393981715890130AA2F12C1774B810DF /* ZHKIDCardKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		566BDB5BFD3756E529DF398B9305656E /* UITextView+ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C537A85C38DFEDE7727EE21130FBD72 /* UITextView+ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6710DCD6FC2E6AB086F28F056832AC6D /* ZHKKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D43433DD4C1FFAD1C0B99820199357 /* ZHKKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A4CB7309F4263B5338173FDFCE37E5 /* ZHKKeyBoardDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 264DBA94EFB6758F6F6C99E333B13BA1 /* ZHKKeyBoardDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29082415BADB1CD548D33E3AAD745EA8 /* ZHKKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2B0A185A4202186F7C4FC1A0689A76B /* ZHKKeyBoard.bundle */; };
+		2A0565D4D81DF2FA898EF0FA1698ACB1 /* ZHKSelectionKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C3D8B274EF02E6760B6F3EDC5161B6 /* ZHKSelectionKeyboardView.m */; };
+		3C440C4E2185ADBBE388002782FD2146 /* UITextField+ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 741FB94CA1283A3B794B3F70AA64527F /* UITextField+ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413FA23FB9BA1B2E225455392179AAC6 /* ZHKSelectionKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A3BEAA2F50FF3781DFA66799C18648 /* ZHKSelectionKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46142478B8771DFCDA1926DFE93871CA /* ZHKKeyBoardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4726D4171406EF04EE886DE7C7DCECED /* ZHKKeyBoardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC74F24626929B84A2817A697FEE529 /* ZHKDatePickerKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78160F199565DF1B8D60E4F99BCB9F /* ZHKDatePickerKeyBoardView.m */; };
+		6079347A49A889B1FCDE27AA036DA7C7 /* ZHKIDCardKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DFDE6C7FAD34665DC34EF50484BD1A /* ZHKIDCardKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6625BA7890267DD33530C2DAAED5562C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68476780A2EBB55F3D70BC95395542A8 /* ZHKKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA013506173901478BA36CF1B27CD06E /* ZHKKeyBoard-dummy.m */; };
+		71657254B9A4B1C4E561F4473F031F40 /* ZHKIDCardKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6955EEB6CDCCC56412F3C85AB693D3 /* ZHKIDCardKeyBoardView.m */; };
 		7269325EC181CC6F84E863DCBEA11EEA /* Pods-ZHKKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20275F6F322686C896D280896A2A0F0A /* Pods-ZHKKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78919880D2F37F4596A998653FCD76B1 /* UITextView+ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 43029F0D727B478BB02FA71CB839840F /* UITextView+ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		792D10504A04F349E78E3C4A05D1DF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7B570A5E2959E1BE7E5066D6A1776C02 /* ZHKIDCardKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7859B9134EA831511E1568614B938632 /* ZHKIDCardKeyBoardView.m */; };
-		7C088DAD7B1B91DAEFB543AD9853D2E6 /* ZHKKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1678960356EED867D9C13001C9AD992 /* ZHKKeyBoard-dummy.m */; };
-		89710A6C912A98075AFA2CA146B2032A /* ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F98B4903A55CA273E2392EAF6C582C4 /* ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8011074C6336ABCEF892BEE471F319A0 /* ZHKKeyBoardDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 914E8D09734E4CDC933C77E113C93B1D /* ZHKKeyBoardDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4FF02247081A33647A1F95565D4C7B /* UITextField+ZHKKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A7CC06D0AA40D0572224376DA57E8 /* UITextField+ZHKKeyBoard.m */; };
 		8F8C31AA397524CCC4C04B063D37C0F1 /* Pods-ZHKKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1522CCE6587B3F5F419C70797323CB /* Pods-ZHKKeyBoard_Tests-dummy.m */; };
-		B1CB3426EE8929C284F7DFC609B9B7FE /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = F8C58BD1F8AEA7464DDDD7FB57AC9CA8 /* province.json */; };
-		BB73AFC376AF3068F8E992BE6225918D /* ZHKLocationKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67F383DACE5E34949D0FB7551856E1 /* ZHKLocationKeyBoardView.m */; };
+		9058793E5E977411FA0DD57D5057BD1E /* ZHKKeyBoardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F09E153A689CE069E16BBBA4C545920 /* ZHKKeyBoardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8BF5826AE7C32387A8C5E52B5C6C6E5 /* ZHKKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 890ABF2EF7BEBE9CE3A7B189AE7429E0 /* ZHKKeyBoardManager.m */; };
+		B337343087D637CD2751A5EC5374B248 /* ZHKKIDCardKeyBoardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD393D381F38BFDFD38A6DF71E05E7E /* ZHKKIDCardKeyBoardItem.m */; };
+		BB9A3258A9CDA3B88506DEE7A734A933 /* ZHKKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71702111E10BDFC84E46A49342A53D5E /* ZHKKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E1995C464F3711937A8833B829AC20 /* ZHKLocationKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7746CC6EA7724B37BA98F48EF369F /* ZHKLocationKeyBoardView.m */; };
+		C412253D1F73FF913913E75824F2515D /* ZHKKIDCardKeyBoardItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBD4CF531C584121A369F1C54DAAAB5 /* ZHKKIDCardKeyBoardItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C91BC0900BB9FCDAE9576B526777D690 /* Pods-ZHKKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578BB9165392E32B97BEF85BFE787 /* Pods-ZHKKeyBoard_Example-dummy.m */; };
-		CAA1F11E8787CBDC818ECF8ED1810806 /* UITextField+ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF1B1AAF2D5AE77E494760E4BD35B53 /* UITextField+ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCD032CBAD78367C0EC2DE10D406537D /* ZHKBlockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A74956C942B197B94FD81631C840EFB /* ZHKBlockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D18FE5D532CB7E8EC29533133284870A /* ZHKKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 700716FC208CE7416927BE16480AC1F9 /* ZHKKeyBoardManager.m */; };
+		CDD7B1EBDB652A75B01BD6989B807E80 /* UITextView+ZHKKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CC1FB2184E8EE956608B8CEB2AC158 /* UITextView+ZHKKeyBoard.m */; };
 		D35A682652E6BF7E1DFA103BFDB7C3D6 /* Pods-ZHKKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D2D8DAD8C1C8C682CAB5DA2FBC962 /* Pods-ZHKKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3B7932ACCA34AC35559BD3E91C27142 /* ZHKKeyBoardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 69628A1E4BE84FA38A4FCB24821A9887 /* ZHKKeyBoardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8A8007C8E50055499F903E0A7CE2213 /* ZHKLocationKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B41D5CA82CCF39F087541B86C0B5CDD /* ZHKLocationKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E540C8C5EB8FDCC426FF241FD575D19D /* ZHKBlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 968508105B63B053B8DCCD868043C278 /* ZHKBlockObject.m */; };
-		EA7ADF180BF5F0ADFF65BEEFBC5A24C1 /* ZHKKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F62773A6EF5B89E6DEB91566B9423AC /* ZHKKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F79619C9CE1228282D7DCCAF93DA6876 /* UITextView+ZHKKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBB6C09EBF34EADCC7E549F649F65E /* UITextView+ZHKKeyBoard.m */; };
+		D524BADDDFA524D01E9C283196D1BFC8 /* ZHKBlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 47634AF1FB0BFB0DBC88044CF0CE4827 /* ZHKBlockObject.m */; };
+		DC57A022518F4B1A1AEC0E7117D1EB91 /* ZHKKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF743344D71CD30E18E4747A34436DC /* ZHKKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17233A0506126332C4C8D8597C57035 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = 1243A9726629C4A825F97427BF380E4F /* province.json */; };
+		E1E3B448CE82153809EAD850D72F219D /* ZHKDatePickerKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADE233502919D4F68189C3FCE16D244 /* ZHKDatePickerKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71C2AD0359B4D1852390B9FCF469FD2 /* ZHKBlockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A22AF15239DEF8CBA690996FE42915E /* ZHKBlockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7CD4ADD768B92C7B33EB8A9293CF75 /* ZHKLocationKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC03F1A2C68FBBA48721528CE587904 /* ZHKLocationKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		515EE8618BB644646B1C9CF15BC8EEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A24D58D7D1971581E7279F6BE3F5E2E;
+			remoteInfo = "ZHKKeyBoard-ZHKKeyBoard";
+		};
 		9D4DE17C979C4ECBBB57CD4396623178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82508095A17A9F9F92ADDE5686FA0BFA;
 			remoteInfo = ZHKKeyBoard;
-		};
-		B3396C2DACE0AB60C9DB0B44840A22C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A24D58D7D1971581E7279F6BE3F5E2E;
-			remoteInfo = "ZHKKeyBoard-ZHKKeyBoard";
 		};
 		C30AD554871468708EADD91B22B9DA1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,66 +69,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052D8B3BA03508619D5CC9CD483177F2 /* ZHKKIDCardKeyBoardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKIDCardKeyBoardItem.h; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKKIDCardKeyBoardItem.h; sourceTree = "<group>"; };
+		007A2294C459D83E4631CAB568780CB8 /* ZHKKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHKKeyBoard.modulemap; sourceTree = "<group>"; };
 		0A624A08EE6CE16EEE1F84C66A84D496 /* Pods-ZHKKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHKKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0DF1B941ACAB67D14E9F563722CB5D08 /* ZHKKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHKKeyBoard.release.xcconfig; sourceTree = "<group>"; };
-		1938466AB625AB1BF819C0D14C65CB93 /* ZHKKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZHKKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A74956C942B197B94FD81631C840EFB /* ZHKBlockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKBlockObject.h; path = ZHKKeyBoard/Classes/ZHKBlockObject/ZHKBlockObject.h; sourceTree = "<group>"; };
+		1243A9726629C4A825F97427BF380E4F /* province.json */ = {isa = PBXFileReference; includeInIndex = 1; name = province.json; path = ZHKKeyBoard/Assets/province.json; sourceTree = "<group>"; };
+		1ADE233502919D4F68189C3FCE16D244 /* ZHKDatePickerKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKDatePickerKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/ZHKDatePickerKeyBoardView.h; sourceTree = "<group>"; };
+		1EF743344D71CD30E18E4747A34436DC /* ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoard.h; path = ZHKKeyBoard/Classes/ZHKKeyBoard.h; sourceTree = "<group>"; };
 		20275F6F322686C896D280896A2A0F0A /* Pods-ZHKKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHKKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		264DBA94EFB6758F6F6C99E333B13BA1 /* ZHKKeyBoardDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardDefine.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardDefine.h; sourceTree = "<group>"; };
+		210C45C505FEDFD00C73E223C853EA17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2A3A3FE368BDD074434DB65C8AA07631 /* Pods-ZHKKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHKKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2F6C883D616F8E21169391D18547C02A /* Pods-ZHKKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHKKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		393981715890130AA2F12C1774B810DF /* ZHKIDCardKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKIDCardKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKIDCardKeyBoardView.h; sourceTree = "<group>"; };
-		3C537A85C38DFEDE7727EE21130FBD72 /* UITextView+ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+ZHKKeyBoard.h"; path = "ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/UITextView+ZHKKeyBoard.h"; sourceTree = "<group>"; };
+		3EABC1927E07A0AF3020CE912EE68C40 /* ZHKKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardView.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardView.h; sourceTree = "<group>"; };
+		3F09E153A689CE069E16BBBA4C545920 /* ZHKKeyBoardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardManager.h; path = ZHKKeyBoard/Classes/Manager/ZHKKeyBoardManager.h; sourceTree = "<group>"; };
+		40EFB445F9C5A857F5B95CC8058DA285 /* ZHKKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHKKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		43029F0D727B478BB02FA71CB839840F /* UITextView+ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+ZHKKeyBoard.h"; path = "ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/UITextView+ZHKKeyBoard.h"; sourceTree = "<group>"; };
 		43F4E2533209E2988CAEBE57CCFAEC81 /* Pods-ZHKKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHKKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
-		4EE4A7EBC990CE594B58D5D678CDA0E6 /* ZHKKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHKKeyBoard-prefix.pch"; sourceTree = "<group>"; };
-		4F98B4903A55CA273E2392EAF6C582C4 /* ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoard.h; path = ZHKKeyBoard/Classes/ZHKKeyBoard.h; sourceTree = "<group>"; };
+		4726D4171406EF04EE886DE7C7DCECED /* ZHKKeyBoardDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardDelegate.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardDelegate.h; sourceTree = "<group>"; };
+		47634AF1FB0BFB0DBC88044CF0CE4827 /* ZHKBlockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKBlockObject.m; path = ZHKKeyBoard/Classes/ZHKBlockObject/ZHKBlockObject.m; sourceTree = "<group>"; };
+		479A1ACEF96D0C3938357CA548B32BD6 /* ZHKKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHKKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		4CD02289115F8B36887D313C0817D0EF /* ZHKTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKTextInput.h; path = ZHKKeyBoard/Classes/Defines/ZHKTextInput.h; sourceTree = "<group>"; };
 		660DB6E79C1DDE2AC20B55C6D5ED029F /* Pods-ZHKKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHKKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		69628A1E4BE84FA38A4FCB24821A9887 /* ZHKKeyBoardDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardDelegate.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardDelegate.h; sourceTree = "<group>"; };
+		67A3BEAA2F50FF3781DFA66799C18648 /* ZHKSelectionKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKSelectionKeyboardView.h; path = ZHKKeyBoard/Classes/View/ZHKSelectionKeyboardView/ZHKSelectionKeyboardView.h; sourceTree = "<group>"; };
+		6A22AF15239DEF8CBA690996FE42915E /* ZHKBlockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKBlockObject.h; path = ZHKKeyBoard/Classes/ZHKBlockObject/ZHKBlockObject.h; sourceTree = "<group>"; };
 		6AF578BB9165392E32B97BEF85BFE787 /* Pods-ZHKKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHKKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
-		700716FC208CE7416927BE16480AC1F9 /* ZHKKeyBoardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKKeyBoardManager.m; path = ZHKKeyBoard/Classes/Manager/ZHKKeyBoardManager.m; sourceTree = "<group>"; };
-		7859B9134EA831511E1568614B938632 /* ZHKIDCardKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKIDCardKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKIDCardKeyBoardView.m; sourceTree = "<group>"; };
-		78DFA428A127A345942138CC4463F37D /* ZHKDatePickerKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKDatePickerKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/ZHKDatePickerKeyBoardView.h; sourceTree = "<group>"; };
-		83660E2EA21D3A3C77B63D1D056953A7 /* ZHKTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKTextInput.h; path = ZHKKeyBoard/Classes/Defines/ZHKTextInput.h; sourceTree = "<group>"; };
-		858D9EB9D6FD41018126FB7D99CE2563 /* Pods_ZHKKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B41D5CA82CCF39F087541B86C0B5CDD /* ZHKLocationKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKLocationKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/ZHKLocationKeyBoardView.h; sourceTree = "<group>"; };
-		95FBB6C09EBF34EADCC7E549F649F65E /* UITextView+ZHKKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ZHKKeyBoard.m"; path = "ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/UITextView+ZHKKeyBoard.m"; sourceTree = "<group>"; };
-		968508105B63B053B8DCCD868043C278 /* ZHKBlockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKBlockObject.m; path = ZHKKeyBoard/Classes/ZHKBlockObject/ZHKBlockObject.m; sourceTree = "<group>"; };
-		9BF1B1AAF2D5AE77E494760E4BD35B53 /* UITextField+ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ZHKKeyBoard.h"; path = "ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/UITextField+ZHKKeyBoard.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9D8276C6FE5C8F1E07CD51D18BF704 /* ZHKKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHKKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		71702111E10BDFC84E46A49342A53D5E /* ZHKKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHKKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		741FB94CA1283A3B794B3F70AA64527F /* UITextField+ZHKKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ZHKKeyBoard.h"; path = "ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/UITextField+ZHKKeyBoard.h"; sourceTree = "<group>"; };
+		7D78160F199565DF1B8D60E4F99BCB9F /* ZHKDatePickerKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKDatePickerKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/ZHKDatePickerKeyBoardView.m; sourceTree = "<group>"; };
+		7FC03F1A2C68FBBA48721528CE587904 /* ZHKLocationKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKLocationKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/ZHKLocationKeyBoardView.h; sourceTree = "<group>"; };
+		858D9EB9D6FD41018126FB7D99CE2563 /* Pods_ZHKKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHKKeyBoard_Example.framework; path = "Pods-ZHKKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890ABF2EF7BEBE9CE3A7B189AE7429E0 /* ZHKKeyBoardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKKeyBoardManager.m; path = ZHKKeyBoard/Classes/Manager/ZHKKeyBoardManager.m; sourceTree = "<group>"; };
+		914E8D09734E4CDC933C77E113C93B1D /* ZHKKeyBoardDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardDefine.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardDefine.h; sourceTree = "<group>"; };
+		98B7746CC6EA7724B37BA98F48EF369F /* ZHKLocationKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKLocationKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/ZHKLocationKeyBoardView.m; sourceTree = "<group>"; };
+		9B6955EEB6CDCCC56412F3C85AB693D3 /* ZHKIDCardKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKIDCardKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKIDCardKeyBoardView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E087844FD5BA546AEEB86DF67CDA25F /* Pods-ZHKKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHKKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F456494FBED2E246D73B4FDD97B6D27 /* ZHKKIDCardKeyBoardItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKKIDCardKeyBoardItem.m; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKKIDCardKeyBoardItem.m; sourceTree = "<group>"; };
-		9F62773A6EF5B89E6DEB91566B9423AC /* ZHKKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHKKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		9FD393D381F38BFDFD38A6DF71E05E7E /* ZHKKIDCardKeyBoardItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKKIDCardKeyBoardItem.m; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKKIDCardKeyBoardItem.m; sourceTree = "<group>"; };
 		A0B8001787E1DF79049BC18A4030C933 /* Pods-ZHKKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHKKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A2D43433DD4C1FFAD1C0B99820199357 /* ZHKKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardView.h; path = ZHKKeyBoard/Classes/Defines/ZHKKeyBoardView.h; sourceTree = "<group>"; };
+		A36A7CC06D0AA40D0572224376DA57E8 /* UITextField+ZHKKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ZHKKeyBoard.m"; path = "ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/UITextField+ZHKKeyBoard.m"; sourceTree = "<group>"; };
 		A45AF46CF74E3F0A718035F06E6064CF /* Pods-ZHKKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHKKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2B0A185A4202186F7C4FC1A0689A76B /* ZHKKeyBoard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHKKeyBoard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C66637F257130AFE21B35F4C16D206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA013506173901478BA36CF1B27CD06E /* ZHKKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHKKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		B2B0A185A4202186F7C4FC1A0689A76B /* ZHKKeyBoard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZHKKeyBoard.bundle; path = "ZHKKeyBoard-ZHKKeyBoard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F9769BD0CBE3CE660EC8CC38F6EF5C /* Pods-ZHKKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHKKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7B6D7078C46B6DDEE94F4D94845D4D6 /* ZHKKeyBoardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKeyBoardManager.h; path = ZHKKeyBoard/Classes/Manager/ZHKKeyBoardManager.h; sourceTree = "<group>"; };
-		B94206BACBAB4087BB0944B7E24F560C /* ZHKKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHKKeyBoard.modulemap; sourceTree = "<group>"; };
 		BB1522CCE6587B3F5F419C70797323CB /* Pods-ZHKKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHKKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC67F383DACE5E34949D0FB7551856E1 /* ZHKLocationKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKLocationKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/ZHKLocationKeyBoardView.m; sourceTree = "<group>"; };
+		C59EFC9AD074208BCA2FCB79703734B3 /* ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		C7E0309A0B5AFC887747213DA5E0F7AB /* ZHKKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHKKeyBoard.release.xcconfig; sourceTree = "<group>"; };
 		C9D1C2A09262B93A812C1D320FB4B89D /* Pods-ZHKKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHKKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
-		D1678960356EED867D9C13001C9AD992 /* ZHKKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHKKeyBoard-dummy.m"; sourceTree = "<group>"; };
-		D46D694DEA7D9FCDFFEE70B1A73A528D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD82C8CBAA25C1B52C78A9461FF89644 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7C3D8B274EF02E6760B6F3EDC5161B6 /* ZHKSelectionKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKSelectionKeyboardView.m; path = ZHKKeyBoard/Classes/View/ZHKSelectionKeyboardView/ZHKSelectionKeyboardView.m; sourceTree = "<group>"; };
 		DCE7FBB9DB5EDC89B575A0D5536B3303 /* Pods-ZHKKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHKKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E224E2B754383220DB80053C03014DD9 /* UITextField+ZHKKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ZHKKeyBoard.m"; path = "ZHKKeyBoard/Classes/Categroies/UITextField+ZHKKeyBoard/UITextField+ZHKKeyBoard.m"; sourceTree = "<group>"; };
-		E376B5B501561CEA1C447FD4EAB8F0E8 /* ZHKKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHKKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E38D8B8EC40931C2CD14754333029E2E /* ZHKKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHKKeyBoard.debug.xcconfig; sourceTree = "<group>"; };
-		E6C2FA854017C649F13CA90D003F032C /* ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		DD8BF2B488195DAAB8566C373C643DAE /* ZHKKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHKKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1DFDE6C7FAD34665DC34EF50484BD1A /* ZHKIDCardKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKIDCardKeyBoardView.h; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKIDCardKeyBoardView.h; sourceTree = "<group>"; };
+		E376B5B501561CEA1C447FD4EAB8F0E8 /* ZHKKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHKKeyBoard.framework; path = ZHKKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4377A7CC5001C99CD5EFA2C47DAA913 /* ZHKSelectionModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKSelectionModels.h; path = ZHKKeyBoard/Classes/View/ZHKSelectionKeyboardView/ZHKSelectionModels.h; sourceTree = "<group>"; };
 		E70D08AF4316C0BC1F06347C811EF8CB /* Pods-ZHKKeyBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHKKeyBoard_Example-Info.plist"; sourceTree = "<group>"; };
 		EB3FD5A2D9A59CD09102856D915422CF /* Pods-ZHKKeyBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHKKeyBoard_Tests-Info.plist"; sourceTree = "<group>"; };
+		EEBD4CF531C584121A369F1C54DAAAB5 /* ZHKKIDCardKeyBoardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHKKIDCardKeyBoardItem.h; path = ZHKKeyBoard/Classes/View/ZHKIDCardKeyBoardView/ZHKKIDCardKeyBoardItem.h; sourceTree = "<group>"; };
 		F16D2D8DAD8C1C8C682CAB5DA2FBC962 /* Pods-ZHKKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHKKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
-		F3233E033F4679C09815F052A6092585 /* Pods_ZHKKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8C58BD1F8AEA7464DDDD7FB57AC9CA8 /* province.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = province.json; path = ZHKKeyBoard/Assets/province.json; sourceTree = "<group>"; };
-		FB1163F8ACF2975009C7ED430343B7A4 /* ZHKDatePickerKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHKDatePickerKeyBoardView.m; path = ZHKKeyBoard/Classes/View/ZHKDatePickerKeyBoardView/ZHKDatePickerKeyBoardView.m; sourceTree = "<group>"; };
+		F1CC1FB2184E8EE956608B8CEB2AC158 /* UITextView+ZHKKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ZHKKeyBoard.m"; path = "ZHKKeyBoard/Classes/Categroies/UITextView+ZHKKeyBoard/UITextView+ZHKKeyBoard.m"; sourceTree = "<group>"; };
+		F3233E033F4679C09815F052A6092585 /* Pods_ZHKKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHKKeyBoard_Tests.framework; path = "Pods-ZHKKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F83191C69304F292C37F61B4FC53D8 /* ZHKKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHKKeyBoard.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14B27E756BD073662CDAA911B15B180F /* Frameworks */ = {
+		0546026EC73DEC62FED89EB153A91441 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -140,11 +146,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E77022F8884120997E0D23121F711DF /* Frameworks */ = {
+		62FFCD23BEFBA230118485D4C8397465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44089318AA673EA098682037739E8229 /* Foundation.framework in Frameworks */,
+				6625BA7890267DD33530C2DAAED5562C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,98 +194,94 @@
 		1D7A60596F285A257FCC9F5E45FE394F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				793772B7235222AC3CB05D8D50585675 /* ZHKKeyBoard */,
+				210FFBBB01575E0D166B7D02D15657C5 /* ZHKKeyBoard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6281C0889EC355B0D81FFA286E420B6A /* Views */ = {
+		210FFBBB01575E0D166B7D02D15657C5 /* ZHKKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				BE0317245B6D907246C4DD63D994CD53 /* ZHKDatePickerKeyBoardView */,
-				6799310962FF632FCFDF2FE70828F205 /* ZHKIDCardKeyBoardView */,
-				C4AB4E9B6CAB3AA710C29E25759E9CB4 /* ZHKLocationKeyBoardView */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		64C81BF0BC38F70A207D50B57C224ABB /* UITextView */ = {
-			isa = PBXGroup;
-			children = (
-				3C537A85C38DFEDE7727EE21130FBD72 /* UITextView+ZHKKeyBoard.h */,
-				95FBB6C09EBF34EADCC7E549F649F65E /* UITextView+ZHKKeyBoard.m */,
-			);
-			name = UITextView;
-			sourceTree = "<group>";
-		};
-		6799310962FF632FCFDF2FE70828F205 /* ZHKIDCardKeyBoardView */ = {
-			isa = PBXGroup;
-			children = (
-				393981715890130AA2F12C1774B810DF /* ZHKIDCardKeyBoardView.h */,
-				7859B9134EA831511E1568614B938632 /* ZHKIDCardKeyBoardView.m */,
-				052D8B3BA03508619D5CC9CD483177F2 /* ZHKKIDCardKeyBoardItem.h */,
-				9F456494FBED2E246D73B4FDD97B6D27 /* ZHKKIDCardKeyBoardItem.m */,
-			);
-			name = ZHKIDCardKeyBoardView;
-			sourceTree = "<group>";
-		};
-		6B2A44C76C840F49360096045AFFF56B /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				B7B6D7078C46B6DDEE94F4D94845D4D6 /* ZHKKeyBoardManager.h */,
-				700716FC208CE7416927BE16480AC1F9 /* ZHKKeyBoardManager.m */,
-			);
-			name = Manager;
-			sourceTree = "<group>";
-		};
-		793772B7235222AC3CB05D8D50585675 /* ZHKKeyBoard */ = {
-			isa = PBXGroup;
-			children = (
-				4F98B4903A55CA273E2392EAF6C582C4 /* ZHKKeyBoard.h */,
-				FEBB82FEA87E19B71B9403200C005BF2 /* Categroies */,
-				BE1F2FF86E303526D653E1B64340BCBD /* Defines */,
-				6B2A44C76C840F49360096045AFFF56B /* Manager */,
-				DBC09485E207895EE70048C43EEA3038 /* Pod */,
-				8C316CDB3F2DDB42F5382D504249F608 /* Resources */,
-				AB2F2C93A4134D3B05B6F053BFDA1D28 /* Support Files */,
-				6281C0889EC355B0D81FFA286E420B6A /* Views */,
-				881145E45E2F4DB812088E48759A05A1 /* ZHKBlockObject */,
+				1EF743344D71CD30E18E4747A34436DC /* ZHKKeyBoard.h */,
+				EE496C3604511432D5113DD0E052949C /* Categroies */,
+				CD5D74C331A30EDFE5A291C7945B6B2A /* Defines */,
+				BD4C484BBC50F9F4B079D650FD2EA447 /* Manager */,
+				23B0C7C8A97A3473084D0F854D58E38C /* Pod */,
+				E35C3DBF4F1A6AD12F9F2CA3451BBFE3 /* Resources */,
+				EE253F5BC13B8DD39BF20EBD8F7D5C9F /* Support Files */,
+				70791AC289AD8A950342EECEBF37713D /* Views */,
+				EBB8079B3E5237245F0D77D1EFE4CA90 /* ZHKBlockObject */,
 			);
 			name = ZHKKeyBoard;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		881145E45E2F4DB812088E48759A05A1 /* ZHKBlockObject */ = {
+		21E8B7AEBA7E020B8A9FDE546D52D20A /* ZHKIDCardKeyBoardView */ = {
 			isa = PBXGroup;
 			children = (
-				1A74956C942B197B94FD81631C840EFB /* ZHKBlockObject.h */,
-				968508105B63B053B8DCCD868043C278 /* ZHKBlockObject.m */,
+				E1DFDE6C7FAD34665DC34EF50484BD1A /* ZHKIDCardKeyBoardView.h */,
+				9B6955EEB6CDCCC56412F3C85AB693D3 /* ZHKIDCardKeyBoardView.m */,
+				EEBD4CF531C584121A369F1C54DAAAB5 /* ZHKKIDCardKeyBoardItem.h */,
+				9FD393D381F38BFDFD38A6DF71E05E7E /* ZHKKIDCardKeyBoardItem.m */,
 			);
-			name = ZHKBlockObject;
+			name = ZHKIDCardKeyBoardView;
 			sourceTree = "<group>";
 		};
-		8C316CDB3F2DDB42F5382D504249F608 /* Resources */ = {
+		23B0C7C8A97A3473084D0F854D58E38C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F8C58BD1F8AEA7464DDDD7FB57AC9CA8 /* province.json */,
+				210C45C505FEDFD00C73E223C853EA17 /* LICENSE */,
+				CD82C8CBAA25C1B52C78A9461FF89644 /* README.md */,
+				DD8BF2B488195DAAB8566C373C643DAE /* ZHKKeyBoard.podspec */,
 			);
-			name = Resources;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		AB2F2C93A4134D3B05B6F053BFDA1D28 /* Support Files */ = {
+		4870D5FBB42B16FA8F3595A1A84CA3F5 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
-				E6C2FA854017C649F13CA90D003F032C /* ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist */,
-				B94206BACBAB4087BB0944B7E24F560C /* ZHKKeyBoard.modulemap */,
-				D1678960356EED867D9C13001C9AD992 /* ZHKKeyBoard-dummy.m */,
-				9D9D8276C6FE5C8F1E07CD51D18BF704 /* ZHKKeyBoard-Info.plist */,
-				4EE4A7EBC990CE594B58D5D678CDA0E6 /* ZHKKeyBoard-prefix.pch */,
-				9F62773A6EF5B89E6DEB91566B9423AC /* ZHKKeyBoard-umbrella.h */,
-				E38D8B8EC40931C2CD14754333029E2E /* ZHKKeyBoard.debug.xcconfig */,
-				0DF1B941ACAB67D14E9F563722CB5D08 /* ZHKKeyBoard.release.xcconfig */,
+				741FB94CA1283A3B794B3F70AA64527F /* UITextField+ZHKKeyBoard.h */,
+				A36A7CC06D0AA40D0572224376DA57E8 /* UITextField+ZHKKeyBoard.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZHKKeyBoard";
+			name = UITextField;
+			sourceTree = "<group>";
+		};
+		4AF7D214EA99308CA0423501C275A897 /* ZHKDatePickerKeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE233502919D4F68189C3FCE16D244 /* ZHKDatePickerKeyBoardView.h */,
+				7D78160F199565DF1B8D60E4F99BCB9F /* ZHKDatePickerKeyBoardView.m */,
+			);
+			name = ZHKDatePickerKeyBoardView;
+			sourceTree = "<group>";
+		};
+		4F70C299A5645C38BF4EEDAEE0A44F8A /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				43029F0D727B478BB02FA71CB839840F /* UITextView+ZHKKeyBoard.h */,
+				F1CC1FB2184E8EE956608B8CEB2AC158 /* UITextView+ZHKKeyBoard.m */,
+			);
+			name = UITextView;
+			sourceTree = "<group>";
+		};
+		615AB829962D021ADB5237D58E9CFECC /* ZHKLocationKeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				7FC03F1A2C68FBBA48721528CE587904 /* ZHKLocationKeyBoardView.h */,
+				98B7746CC6EA7724B37BA98F48EF369F /* ZHKLocationKeyBoardView.m */,
+			);
+			name = ZHKLocationKeyBoardView;
+			sourceTree = "<group>";
+		};
+		70791AC289AD8A950342EECEBF37713D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AF7D214EA99308CA0423501C275A897 /* ZHKDatePickerKeyBoardView */,
+				21E8B7AEBA7E020B8A9FDE546D52D20A /* ZHKIDCardKeyBoardView */,
+				615AB829962D021ADB5237D58E9CFECC /* ZHKLocationKeyBoardView */,
+				D1A06B71FE4B76C317E012BEFBA0322B /* ZHKSelectionKeyboardView */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		AF6D5404E205922204B46EC3FA7EB107 /* Pods-ZHKKeyBoard_Tests */ = {
@@ -298,24 +300,13 @@
 			path = "Target Support Files/Pods-ZHKKeyBoard_Tests";
 			sourceTree = "<group>";
 		};
-		BE0317245B6D907246C4DD63D994CD53 /* ZHKDatePickerKeyBoardView */ = {
+		BD4C484BBC50F9F4B079D650FD2EA447 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				78DFA428A127A345942138CC4463F37D /* ZHKDatePickerKeyBoardView.h */,
-				FB1163F8ACF2975009C7ED430343B7A4 /* ZHKDatePickerKeyBoardView.m */,
+				3F09E153A689CE069E16BBBA4C545920 /* ZHKKeyBoardManager.h */,
+				890ABF2EF7BEBE9CE3A7B189AE7429E0 /* ZHKKeyBoardManager.m */,
 			);
-			name = ZHKDatePickerKeyBoardView;
-			sourceTree = "<group>";
-		};
-		BE1F2FF86E303526D653E1B64340BCBD /* Defines */ = {
-			isa = PBXGroup;
-			children = (
-				83660E2EA21D3A3C77B63D1D056953A7 /* ZHKTextInput.h */,
-				264DBA94EFB6758F6F6C99E333B13BA1 /* ZHKKeyBoardDefine.h */,
-				69628A1E4BE84FA38A4FCB24821A9887 /* ZHKKeyBoardDelegate.h */,
-				A2D43433DD4C1FFAD1C0B99820199357 /* ZHKKeyBoardView.h */,
-			);
-			name = Defines;
+			name = Manager;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -326,22 +317,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4AB4E9B6CAB3AA710C29E25759E9CB4 /* ZHKLocationKeyBoardView */ = {
+		CD5D74C331A30EDFE5A291C7945B6B2A /* Defines */ = {
 			isa = PBXGroup;
 			children = (
-				8B41D5CA82CCF39F087541B86C0B5CDD /* ZHKLocationKeyBoardView.h */,
-				BC67F383DACE5E34949D0FB7551856E1 /* ZHKLocationKeyBoardView.m */,
+				914E8D09734E4CDC933C77E113C93B1D /* ZHKKeyBoardDefine.h */,
+				4726D4171406EF04EE886DE7C7DCECED /* ZHKKeyBoardDelegate.h */,
+				3EABC1927E07A0AF3020CE912EE68C40 /* ZHKKeyBoardView.h */,
+				4CD02289115F8B36887D313C0817D0EF /* ZHKTextInput.h */,
 			);
-			name = ZHKLocationKeyBoardView;
-			sourceTree = "<group>";
-		};
-		CA1EFEF00CB1A44B196E42325C81DBFA /* UITextField */ = {
-			isa = PBXGroup;
-			children = (
-				9BF1B1AAF2D5AE77E494760E4BD35B53 /* UITextField+ZHKKeyBoard.h */,
-				E224E2B754383220DB80053C03014DD9 /* UITextField+ZHKKeyBoard.m */,
-			);
-			name = UITextField;
+			name = Defines;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -353,6 +337,16 @@
 				D853FAEFACF788A3974BC00EA2BCD7B0 /* Products */,
 				0C2656FE23EDB8674E5759253FC55CC0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1A06B71FE4B76C317E012BEFBA0322B /* ZHKSelectionKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				67A3BEAA2F50FF3781DFA66799C18648 /* ZHKSelectionKeyboardView.h */,
+				D7C3D8B274EF02E6760B6F3EDC5161B6 /* ZHKSelectionKeyboardView.m */,
+				E4377A7CC5001C99CD5EFA2C47DAA913 /* ZHKSelectionModels.h */,
+			);
+			name = ZHKSelectionKeyboardView;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -374,21 +368,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DBC09485E207895EE70048C43EEA3038 /* Pod */ = {
+		E35C3DBF4F1A6AD12F9F2CA3451BBFE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B3C66637F257130AFE21B35F4C16D206 /* LICENSE */,
-				D46D694DEA7D9FCDFFEE70B1A73A528D /* README.md */,
-				1938466AB625AB1BF819C0D14C65CB93 /* ZHKKeyBoard.podspec */,
+				1243A9726629C4A825F97427BF380E4F /* province.json */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		FEBB82FEA87E19B71B9403200C005BF2 /* Categroies */ = {
+		EBB8079B3E5237245F0D77D1EFE4CA90 /* ZHKBlockObject */ = {
 			isa = PBXGroup;
 			children = (
-				CA1EFEF00CB1A44B196E42325C81DBFA /* UITextField */,
-				64C81BF0BC38F70A207D50B57C224ABB /* UITextView */,
+				6A22AF15239DEF8CBA690996FE42915E /* ZHKBlockObject.h */,
+				47634AF1FB0BFB0DBC88044CF0CE4827 /* ZHKBlockObject.m */,
+			);
+			name = ZHKBlockObject;
+			sourceTree = "<group>";
+		};
+		EE253F5BC13B8DD39BF20EBD8F7D5C9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59EFC9AD074208BCA2FCB79703734B3 /* ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist */,
+				007A2294C459D83E4631CAB568780CB8 /* ZHKKeyBoard.modulemap */,
+				AA013506173901478BA36CF1B27CD06E /* ZHKKeyBoard-dummy.m */,
+				479A1ACEF96D0C3938357CA548B32BD6 /* ZHKKeyBoard-Info.plist */,
+				40EFB445F9C5A857F5B95CC8058DA285 /* ZHKKeyBoard-prefix.pch */,
+				71702111E10BDFC84E46A49342A53D5E /* ZHKKeyBoard-umbrella.h */,
+				F9F83191C69304F292C37F61B4FC53D8 /* ZHKKeyBoard.debug.xcconfig */,
+				C7E0309A0B5AFC887747213DA5E0F7AB /* ZHKKeyBoard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZHKKeyBoard";
+			sourceTree = "<group>";
+		};
+		EE496C3604511432D5113DD0E052949C /* Categroies */ = {
+			isa = PBXGroup;
+			children = (
+				4870D5FBB42B16FA8F3595A1A84CA3F5 /* UITextField */,
+				4F70C299A5645C38BF4EEDAEE0A44F8A /* UITextView */,
 			);
 			name = Categroies;
 			sourceTree = "<group>";
@@ -396,24 +413,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08DA08A91C22DCFA1FAB3D95D3E21656 /* Headers */ = {
+		67C8D19F31A3191D3E06B57511D20AC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA1F11E8787CBDC818ECF8ED1810806 /* UITextField+ZHKKeyBoard.h in Headers */,
-				566BDB5BFD3756E529DF398B9305656E /* UITextView+ZHKKeyBoard.h in Headers */,
-				CCD032CBAD78367C0EC2DE10D406537D /* ZHKBlockObject.h in Headers */,
-				2DD74CCD7EE44C4E17B8089E7F663A50 /* ZHKDatePickerKeyBoardView.h in Headers */,
-				55324D68D20AC50998F9B825BC4CBE05 /* ZHKIDCardKeyBoardView.h in Headers */,
-				3935753878091CC95B216D322DAC8410 /* ZHKTextInput.h in Headers */,
-				EA7ADF180BF5F0ADFF65BEEFBC5A24C1 /* ZHKKeyBoard-umbrella.h in Headers */,
-				89710A6C912A98075AFA2CA146B2032A /* ZHKKeyBoard.h in Headers */,
-				70A4CB7309F4263B5338173FDFCE37E5 /* ZHKKeyBoardDefine.h in Headers */,
-				D3B7932ACCA34AC35559BD3E91C27142 /* ZHKKeyBoardDelegate.h in Headers */,
-				1C018F46B30C25DC9FF88C69CC7905E4 /* ZHKKeyBoardManager.h in Headers */,
-				6710DCD6FC2E6AB086F28F056832AC6D /* ZHKKeyBoardView.h in Headers */,
-				23217786C101EB89FFF19A3919E1BBF1 /* ZHKKIDCardKeyBoardItem.h in Headers */,
-				D8A8007C8E50055499F903E0A7CE2213 /* ZHKLocationKeyBoardView.h in Headers */,
+				3C440C4E2185ADBBE388002782FD2146 /* UITextField+ZHKKeyBoard.h in Headers */,
+				78919880D2F37F4596A998653FCD76B1 /* UITextView+ZHKKeyBoard.h in Headers */,
+				E71C2AD0359B4D1852390B9FCF469FD2 /* ZHKBlockObject.h in Headers */,
+				E1E3B448CE82153809EAD850D72F219D /* ZHKDatePickerKeyBoardView.h in Headers */,
+				6079347A49A889B1FCDE27AA036DA7C7 /* ZHKIDCardKeyBoardView.h in Headers */,
+				BB9A3258A9CDA3B88506DEE7A734A933 /* ZHKKeyBoard-umbrella.h in Headers */,
+				DC57A022518F4B1A1AEC0E7117D1EB91 /* ZHKKeyBoard.h in Headers */,
+				8011074C6336ABCEF892BEE471F319A0 /* ZHKKeyBoardDefine.h in Headers */,
+				46142478B8771DFCDA1926DFE93871CA /* ZHKKeyBoardDelegate.h in Headers */,
+				9058793E5E977411FA0DD57D5057BD1E /* ZHKKeyBoardManager.h in Headers */,
+				0E9C38EF4AD61963208EA08F9C6831AE /* ZHKKeyBoardView.h in Headers */,
+				C412253D1F73FF913913E75824F2515D /* ZHKKIDCardKeyBoardItem.h in Headers */,
+				EA7CD4ADD768B92C7B33EB8A9293CF75 /* ZHKLocationKeyBoardView.h in Headers */,
+				413FA23FB9BA1B2E225455392179AAC6 /* ZHKSelectionKeyboardView.h in Headers */,
+				16A188ACD7AB3303B892DFD73931F4BD /* ZHKSelectionModels.h in Headers */,
+				1B49573D876A1BCDFE476EF4DAACE9A4 /* ZHKTextInput.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,11 +476,11 @@
 		};
 		7A24D58D7D1971581E7279F6BE3F5E2E /* ZHKKeyBoard-ZHKKeyBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A083ADE4A81BB64C802F9AC83346F99C /* Build configuration list for PBXNativeTarget "ZHKKeyBoard-ZHKKeyBoard" */;
+			buildConfigurationList = EA553BA3ACE0E09536B346F419B113C4 /* Build configuration list for PBXNativeTarget "ZHKKeyBoard-ZHKKeyBoard" */;
 			buildPhases = (
-				43BC13DB88B24C2404264D5CC15A2345 /* Sources */,
-				14B27E756BD073662CDAA911B15B180F /* Frameworks */,
-				F4CA6D04FB5FE80460216812BD6E6C1F /* Resources */,
+				EC5680AE1CA4F0880A8E6B741E6F6A77 /* Sources */,
+				0546026EC73DEC62FED89EB153A91441 /* Frameworks */,
+				FD65404BDB5D070DDD85AA1E816717C6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -474,17 +493,17 @@
 		};
 		82508095A17A9F9F92ADDE5686FA0BFA /* ZHKKeyBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8105ADE108898373D0DF7DBDD93570AC /* Build configuration list for PBXNativeTarget "ZHKKeyBoard" */;
+			buildConfigurationList = 06ADDC14F4A2B10AF8C4DE41D6B0E699 /* Build configuration list for PBXNativeTarget "ZHKKeyBoard" */;
 			buildPhases = (
-				08DA08A91C22DCFA1FAB3D95D3E21656 /* Headers */,
-				72881380C3CD1A32F102AEB0C3D5E152 /* Sources */,
-				2E77022F8884120997E0D23121F711DF /* Frameworks */,
-				458409A5AE6BF205672A9E3896CF1A9E /* Resources */,
+				67C8D19F31A3191D3E06B57511D20AC0 /* Headers */,
+				BA2179D938EF07FA6CA8F7A74682F02D /* Sources */,
+				62FFCD23BEFBA230118485D4C8397465 /* Frameworks */,
+				9550BDEF7279F62A472E510FEA51BF3E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E69FBD2ABA532552B2A1483472A81521 /* PBXTargetDependency */,
+				6E74B2D797F29AA7986D64B467BF7EBE /* PBXTargetDependency */,
 			);
 			name = ZHKKeyBoard;
 			productName = ZHKKeyBoard;
@@ -541,11 +560,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		458409A5AE6BF205672A9E3896CF1A9E /* Resources */ = {
+		9550BDEF7279F62A472E510FEA51BF3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FF2E695871F421D5F80E0E9EE4F940 /* ZHKKeyBoard.bundle in Resources */,
+				29082415BADB1CD548D33E3AAD745EA8 /* ZHKKeyBoard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,40 +582,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4CA6D04FB5FE80460216812BD6E6C1F /* Resources */ = {
+		FD65404BDB5D070DDD85AA1E816717C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CB3426EE8929C284F7DFC609B9B7FE /* province.json in Resources */,
+				E17233A0506126332C4C8D8597C57035 /* province.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43BC13DB88B24C2404264D5CC15A2345 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72881380C3CD1A32F102AEB0C3D5E152 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11D6463C9701DEF3417696B99252600D /* UITextField+ZHKKeyBoard.m in Sources */,
-				F79619C9CE1228282D7DCCAF93DA6876 /* UITextView+ZHKKeyBoard.m in Sources */,
-				E540C8C5EB8FDCC426FF241FD575D19D /* ZHKBlockObject.m in Sources */,
-				140940FF70E44D53D26BA5AD4BE1390B /* ZHKDatePickerKeyBoardView.m in Sources */,
-				7B570A5E2959E1BE7E5066D6A1776C02 /* ZHKIDCardKeyBoardView.m in Sources */,
-				7C088DAD7B1B91DAEFB543AD9853D2E6 /* ZHKKeyBoard-dummy.m in Sources */,
-				D18FE5D532CB7E8EC29533133284870A /* ZHKKeyBoardManager.m in Sources */,
-				171EA751969E9A34F36ECDA354B40A8B /* ZHKKIDCardKeyBoardItem.m in Sources */,
-				BB73AFC376AF3068F8E992BE6225918D /* ZHKLocationKeyBoardView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7881F8221C715E6F7A6B9C384B1988C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,6 +609,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA2179D938EF07FA6CA8F7A74682F02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4FF02247081A33647A1F95565D4C7B /* UITextField+ZHKKeyBoard.m in Sources */,
+				CDD7B1EBDB652A75B01BD6989B807E80 /* UITextView+ZHKKeyBoard.m in Sources */,
+				D524BADDDFA524D01E9C283196D1BFC8 /* ZHKBlockObject.m in Sources */,
+				4CC74F24626929B84A2817A697FEE529 /* ZHKDatePickerKeyBoardView.m in Sources */,
+				71657254B9A4B1C4E561F4473F031F40 /* ZHKIDCardKeyBoardView.m in Sources */,
+				68476780A2EBB55F3D70BC95395542A8 /* ZHKKeyBoard-dummy.m in Sources */,
+				A8BF5826AE7C32387A8C5E52B5C6C6E5 /* ZHKKeyBoardManager.m in Sources */,
+				B337343087D637CD2751A5EC5374B248 /* ZHKKIDCardKeyBoardItem.m in Sources */,
+				C1E1995C464F3711937A8833B829AC20 /* ZHKLocationKeyBoardView.m in Sources */,
+				2A0565D4D81DF2FA898EF0FA1698ACB1 /* ZHKSelectionKeyboardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5680AE1CA4F0880A8E6B741E6F6A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -622,17 +642,17 @@
 			target = D881DC5F6DA5D70F96CE0D1DDA92B930 /* Pods-ZHKKeyBoard_Example */;
 			targetProxy = C30AD554871468708EADD91B22B9DA1F /* PBXContainerItemProxy */;
 		};
+		6E74B2D797F29AA7986D64B467BF7EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZHKKeyBoard-ZHKKeyBoard";
+			target = 7A24D58D7D1971581E7279F6BE3F5E2E /* ZHKKeyBoard-ZHKKeyBoard */;
+			targetProxy = 515EE8618BB644646B1C9CF15BC8EEB8 /* PBXContainerItemProxy */;
+		};
 		89CFAA96778C162481325D0FC8E81745 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZHKKeyBoard;
 			target = 82508095A17A9F9F92ADDE5686FA0BFA /* ZHKKeyBoard */;
 			targetProxy = 9D4DE17C979C4ECBBB57CD4396623178 /* PBXContainerItemProxy */;
-		};
-		E69FBD2ABA532552B2A1483472A81521 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZHKKeyBoard-ZHKKeyBoard";
-			target = 7A24D58D7D1971581E7279F6BE3F5E2E /* ZHKKeyBoard-ZHKKeyBoard */;
-			targetProxy = B3396C2DACE0AB60C9DB0B44840A22C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -671,6 +691,36 @@
 			};
 			name = Release;
 		};
+		27C372C121F6190214D24F713353B3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F83191C69304F292C37F61B4FC53D8 /* ZHKKeyBoard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = ZHKKeyBoard;
+				PRODUCT_NAME = ZHKKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2A3EE91194F07715E59EE81EED193C33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A3A3FE368BDD074434DB65C8AA07631 /* Pods-ZHKKeyBoard_Tests.release.xcconfig */;
@@ -698,6 +748,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47187326CAE2E13C486C54F3F12139D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E0309A0B5AFC887747213DA5E0F7AB /* ZHKKeyBoard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = ZHKKeyBoard;
+				PRODUCT_NAME = ZHKKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -758,56 +839,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		55361F8BF2D257A939652BCA1E4065BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E38D8B8EC40931C2CD14754333029E2E /* ZHKKeyBoard.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard.modulemap";
-				PRODUCT_MODULE_NAME = ZHKKeyBoard;
-				PRODUCT_NAME = ZHKKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		765C0E86920C558E99024C70992B10B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF1B941ACAB67D14E9F563722CB5D08 /* ZHKKeyBoard.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHKKeyBoard";
-				IBSC_MODULE = ZHKKeyBoard;
-				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZHKKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -908,9 +943,9 @@
 			};
 			name = Debug;
 		};
-		C11BD77B7E767A6B5BDCFCDA05344C1F /* Debug */ = {
+		ECC1E7561BF272BF2D0BED3AF6505979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E38D8B8EC40931C2CD14754333029E2E /* ZHKKeyBoard.debug.xcconfig */;
+			baseConfigurationReference = F9F83191C69304F292C37F61B4FC53D8 /* ZHKKeyBoard.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHKKeyBoard";
@@ -924,37 +959,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		C9918F5B30FC704CADE9D824CAC5906A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF1B941ACAB67D14E9F563722CB5D08 /* ZHKKeyBoard.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZHKKeyBoard/ZHKKeyBoard.modulemap";
-				PRODUCT_MODULE_NAME = ZHKKeyBoard;
-				PRODUCT_NAME = ZHKKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F3CB75F17F14A4A590D8594FAE892EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -989,6 +993,23 @@
 			};
 			name = Debug;
 		};
+		F98779279FD7CEEEB6CCC8B5055FD21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E0309A0B5AFC887747213DA5E0F7AB /* ZHKKeyBoard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHKKeyBoard";
+				IBSC_MODULE = ZHKKeyBoard;
+				INFOPLIST_FILE = "Target Support Files/ZHKKeyBoard/ResourceBundle-ZHKKeyBoard-ZHKKeyBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZHKKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -997,6 +1018,15 @@
 			buildConfigurations = (
 				F3CB75F17F14A4A590D8594FAE892EF5 /* Debug */,
 				26CBE4853564E99E0C9C63A8A4C0559A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ADDC14F4A2B10AF8C4DE41D6B0E699 /* Build configuration list for PBXNativeTarget "ZHKKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C372C121F6190214D24F713353B3D9 /* Debug */,
+				47187326CAE2E13C486C54F3F12139D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1010,29 +1040,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8105ADE108898373D0DF7DBDD93570AC /* Build configuration list for PBXNativeTarget "ZHKKeyBoard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55361F8BF2D257A939652BCA1E4065BB /* Debug */,
-				C9918F5B30FC704CADE9D824CAC5906A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A083ADE4A81BB64C802F9AC83346F99C /* Build configuration list for PBXNativeTarget "ZHKKeyBoard-ZHKKeyBoard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C11BD77B7E767A6B5BDCFCDA05344C1F /* Debug */,
-				765C0E86920C558E99024C70992B10B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B37C0985A91A2B840C92EEC6E67C91FE /* Build configuration list for PBXNativeTarget "Pods-ZHKKeyBoard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F4366989259B7A439469ABDD8E83C05 /* Debug */,
 				2A3EE91194F07715E59EE81EED193C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA553BA3ACE0E09536B346F419B113C4 /* Build configuration list for PBXNativeTarget "ZHKKeyBoard-ZHKKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC1E7561BF272BF2D0BED3AF6505979 /* Debug */,
+				F98779279FD7CEEEB6CCC8B5055FD21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

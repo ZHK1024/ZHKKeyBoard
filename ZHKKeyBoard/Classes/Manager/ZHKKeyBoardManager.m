@@ -11,6 +11,7 @@
 #import "ZHKKeyBoardDelegate.h"
 #import "ZHKDatePickerKeyBoardView.h"
 #import "ZHKLocationKeyBoardView.h"
+#import "ZHKSelectionKeyboardView.h"
 
 @interface ZHKKeyBoardManager () <ZHKKeyBoardDelegate>
 
@@ -34,6 +35,12 @@
             return [ZHKDatePickerKeyBoardView keyBoardWithDelegate:self];
         case ZHKKeyBoardTypeLocation:
             return [ZHKLocationKeyBoardView keyBoardWithDelegate:self];
+        case ZHKKeyBoardTypeSelection: {
+            ZHKSelectionKeyboardView *kb = [ZHKSelectionKeyboardView keyBoardWithDelegate:self];
+            NSLog(@"%@", self.target.selectionInfo);
+            kb.selectionInfo = self.target.selectionInfo;
+            return kb;
+        }
         default:
             _target.keyboardType = (UIKeyboardType)type;
             return nil;

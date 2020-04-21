@@ -16,9 +16,9 @@ NSString *const zhk_keyboardManager_UITextField = @"zhk_keyboardManager_UITextFi
 NSString *const zhk_date_UITextField            = @"zhk_date_UITextField";
 NSString *const zhk_dateFormat_UITextField      = @"zhk_dateFormat_UITextField";
 NSString *const zhk_BlockObject_UITextField     = @"zhk_BlockObject_UITextField";
+NSString *const zhk_SelectionInfo_UITextField   = @"zhk_SelectionInfo_UITextField";
 //
 static char *zhk_attribute_key_UITextField     = "4ebba881c3adebd02a0e0015a0447cc7";
-
 
 @interface UITextField ()
 
@@ -94,6 +94,16 @@ static char *zhk_attribute_key_UITextField     = "4ebba881c3adebd02a0e0015a0447c
 
 - (ZHKBlockObject *)keyboardBlockObject {
     return self.zhk_attributes[zhk_BlockObject_UITextField];
+}
+
+#pragma mark - Selection Info
+
+- (void)setSelectionInfo:(id<ZHKSelectionInfo>)selectionInfo {
+    self.zhk_attributes[zhk_SelectionInfo_UITextField] = selectionInfo;
+}
+
+- (id<ZHKSelectionInfo>)selectionInfo {
+    return self.zhk_attributes[zhk_SelectionInfo_UITextField];
 }
 
 #pragma mark - Attributes

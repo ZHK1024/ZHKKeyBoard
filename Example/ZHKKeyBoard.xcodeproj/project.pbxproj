@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CF95B30032A903A06929703E /* Pods_ZHKKeyBoard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C391803C5D135CA57D516F7 /* Pods_ZHKKeyBoard_Example.framework */; };
+		D1529996244E7E3C004E7B66 /* SelectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1529995244E7E3C004E7B66 /* SelectionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C391803C5D135CA57D516F7 /* Pods_ZHKKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FB5EB0268809F294051D48 /* Pods-ZHKKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKKeyBoard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKKeyBoard_Example/Pods-ZHKKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1529994244E7E3C004E7B66 /* SelectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionModel.h; sourceTree = "<group>"; };
+		D1529995244E7E3C004E7B66 /* SelectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionModel.m; sourceTree = "<group>"; };
 		D5A5D8EA0875428CB7F9BD98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D760AB25EB0172488217A4AE /* Pods_ZHKKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHKKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFBA7D43BFD6EA191BD5B79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				6003F59D195388D20070C39A /* ZHKAppDelegate.m */,
 				6003F5A5195388D20070C39A /* ZHKViewController.h */,
 				6003F5A6195388D20070C39A /* ZHKViewController.m */,
+				D1529994244E7E3C004E7B66 /* SelectionModel.h */,
+				D1529995244E7E3C004E7B66 /* SelectionModel.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -260,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -360,6 +366,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZHKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZHKViewController.m in Sources */,
+				D1529996244E7E3C004E7B66 /* SelectionModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

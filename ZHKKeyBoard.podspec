@@ -59,6 +59,10 @@ A Custom KeyBoard For UITextField And UITextView.
     ss.subspec 'ZHKLocationKeyBoardView' do |sss|
       sss.source_files = 'ZHKKeyBoard/Classes/View/ZHKLocationKeyBoardView/*.{h,m}'
     end
+    
+    ss.subspec 'ZHKSelectionKeyboardView' do |sss|
+      sss.source_files = 'ZHKKeyBoard/Classes/View/ZHKSelectionKeyboardView/*.{h,m}'
+    end
   end
   
   s.subspec 'ZHKBlockObject' do |ss|
